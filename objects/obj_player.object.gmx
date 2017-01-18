@@ -111,6 +111,19 @@ if (place_meeting(x,y+vsp,obj_trampoline))
     vsp = 0;
 }
 y += vsp;
+
+
+//make sure player does not go of the screen
+//y
+if (y&lt;=0) {
+    y=room_height -1;
+} else if (y&gt;=room_height) {
+    y = 1;
+}
+//x
+x=clamp(x,40,1400);
+
+
 </string>
           </argument>
         </arguments>
