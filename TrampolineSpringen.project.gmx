@@ -8,14 +8,19 @@
   <sprites name="sprites">
     <sprite>sprites\spr_muur</sprite>
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_trampoline</sprite>
+    <sprite>sprites\spr_trampoline_button</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_muur</object>
+    <object>objects\obj_trampoline</object>
+    <object>objects\obj_trampoline_button</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_begin_scherm</room>
     <room>rooms\rm_trampoline_game</room>
   </rooms>
   <help>

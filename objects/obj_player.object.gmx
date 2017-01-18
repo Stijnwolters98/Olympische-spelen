@@ -68,7 +68,7 @@ if (place_meeting(x,y+1,obj_muur))
     vsp = key_jump * -jumpspeed
 }
  
-//Horizontal Collision
+//Horizontal Collision muur
 if (place_meeting(x+hsp,y,obj_muur))
 {
     while(!place_meeting(x+sign(hsp),y,obj_muur))
@@ -79,10 +79,32 @@ if (place_meeting(x+hsp,y,obj_muur))
 }
 x += hsp;
  
-//Vertical Collision
+//Vertical Collision muur
 if (place_meeting(x,y+vsp,obj_muur))
 {
     while(!place_meeting(x,y+sign(vsp),obj_muur))
+    {
+        y += sign(vsp);
+    }
+    vsp = 0;
+}
+y += vsp;
+
+//Horizontal Collision trampoline
+if (place_meeting(x+hsp,y,obj_trampoline))
+{
+    while(!place_meeting(x+sign(hsp),y,obj_trampoline))
+    {
+        x += sign(hsp);
+    }
+    hsp = 0;
+}
+x += hsp;
+ 
+//Vertical Collision trampoline
+if (place_meeting(x,y+vsp,obj_trampoline))
+{
+    while(!place_meeting(x,y+sign(vsp),obj_trampoline))
     {
         y += sign(vsp);
     }
