@@ -75,11 +75,16 @@ if (place_meeting(x,y+1,obj_muur))
 }
  
 
+//maken van de salto
 if (key_salto = true) {
 
+instance_destroy()
 instance_create(x,y, obj_stickman_salto)
 
+
+//global.score +=10;
 }
+
 
 
 //Horizontal Collision muur
