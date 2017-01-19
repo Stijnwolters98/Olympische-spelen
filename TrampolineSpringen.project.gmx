@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_olympic_intro_song</sound>
+    <sound>sound\snd_backgroundmusic_trampoline</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_muur</sprite>
@@ -24,7 +25,7 @@
     <object>objects\obj_olympic_logo</object>
     <objects name="sound">
       <object>objects\obj_olympic_intro_song</object>
-      <object>objects\obj_trampoline_background_song</object>
+      <object>objects\obj_backgroundmusic_trampoline</object>
     </objects>
   </objects>
   <rooms name="rooms">
