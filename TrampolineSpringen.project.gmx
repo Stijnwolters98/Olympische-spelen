@@ -13,6 +13,7 @@
     <sprite>sprites\spr_trampoline</sprite>
     <sprite>sprites\spr_trampoline_button</sprite>
     <sprite>sprites\spr_olympic_logo</sprite>
+    <sprite>sprites\spr_stickbitch</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -26,6 +27,7 @@
       <object>objects\obj_olympic_intro_song</object>
       <object>objects\obj_trampoline_background_song</object>
     </objects>
+    <object>objects\obj_stickman</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>
