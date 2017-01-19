@@ -13,7 +13,6 @@
     <sprite>sprites\spr_trampoline</sprite>
     <sprite>sprites\spr_trampoline_button</sprite>
     <sprite>sprites\spr_olympic_logo</sprite>
-    <sprite>sprites\spr_stick</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
