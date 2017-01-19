@@ -57,7 +57,8 @@ movespeed = 3;
 key_right = keyboard_check(vk_right);
 key_left = -keyboard_check(vk_left);
 key_jump = keyboard_check_pressed(vk_space);
- 
+key_salto =  keyboard_check_pressed(vk_shift);
+
 //React to inputs
 move = key_left + key_right;
 hsp = move * movespeed;
@@ -73,6 +74,14 @@ if (place_meeting(x,y+1,obj_muur))
     vsp = key_jump * -jumpspeed;
 }
  
+
+if (key_salto = true) {
+
+instance_create(x,y, obj_stickman_salto)
+
+}
+
+
 //Horizontal Collision muur
 if (place_meeting(x+hsp,y,obj_muur))
 {

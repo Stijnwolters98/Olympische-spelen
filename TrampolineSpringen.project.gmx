@@ -14,8 +14,8 @@
     <sprite>sprites\spr_trampoline</sprite>
     <sprite>sprites\spr_trampoline_button</sprite>
     <sprite>sprites\spr_olympic_logo</sprite>
-    <sprite>sprites\spr_stickbitch</sprite>
-    <sprite>sprites\sp_stick</sprite>
+    <sprite>sprites\spr_stickman_springen</sprite>
+    <sprite>sprites\spr_stickman_salto</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -23,13 +23,14 @@
     <object>objects\obj_player</object>
     <object>objects\obj_muur</object>
     <object>objects\obj_trampoline</object>
+    <object>objects\obj_stickman_springen</object>
+    <object>objects\obj_stickman_salto</object>
     <object>objects\obj_trampoline_button</object>
     <object>objects\obj_olympic_logo</object>
     <objects name="sound">
       <object>objects\obj_olympic_intro_song</object>
       <object>objects\obj_backgroundmusic_trampoline</object>
     </objects>
-    <object>objects\obj_stickman</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>
