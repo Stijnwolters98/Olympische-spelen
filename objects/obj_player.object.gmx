@@ -29,8 +29,8 @@
 grav = 0.2;
 hsp = 0;
 vsp = 0;
-jumpspeed = 7;
-movespeed = 4;
+jumpspeed = 6;
+movespeed = 3;
 </string>
           </argument>
         </arguments>
@@ -63,9 +63,14 @@ move = key_left + key_right;
 hsp = move * movespeed;
 if (vsp &lt; 10) vsp += grav;
  
+if (place_meeting(x,y+1,obj_trampoline))
+{
+    vsp = key_jump * -jumpspeed * 1.5;
+}
+
 if (place_meeting(x,y+1,obj_muur))
 {
-    vsp = key_jump * -jumpspeed
+    vsp = key_jump * -jumpspeed;
 }
  
 //Horizontal Collision muur
