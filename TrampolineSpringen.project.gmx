@@ -16,10 +16,14 @@
     <sprite>sprites\spr_olympic_logo</sprite>
     <sprite>sprites\spr_stickman_springen</sprite>
     <sprite>sprites\spr_stickman_salto</sprite>
+    <sprite>sprites\spr_stickman_staan</sprite>
+    <sprite>sprites\spr_box</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\obj_box</object>
+    <object>objects\obj_settings1</object>
     <object>objects\obj_player</object>
     <object>objects\obj_muur</object>
     <object>objects\obj_trampoline</object>
