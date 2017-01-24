@@ -59,6 +59,13 @@ key_left = -keyboard_check(vk_left);
 key_jump = keyboard_check_pressed(vk_space);
 key_salto =  keyboard_check_pressed(vk_shift);
 
+//salto keys 
+
+key_salto_q = keyboard_check(ord('q'));
+key_salto_w = keyboard_check(ord('w')); 
+key_salto_e = keyboard_check(ord('e')); 
+key_salto_r = keyboard_check(ord('r'));
+
 //React to inputs
 move = key_left + key_right;
 hsp = move * movespeed;
@@ -76,20 +83,15 @@ if (place_meeting(x,y+1,obj_muur))
  
 
 //maken van de salto
-if (key_salto = true) {
-
-instance_destroy()
-instance_create(x,y, obj_stickman_salto)
-
-// het maken van een animatie op contact(werkt niet)
-//if place_meeting(x,y+1,obj_trampoline) = true {
-
-//instance_destroy()
-//instance_create(x,y, obj_stickman_springen)}
-
+if (key_salto_q = true) {
+    if (key_salto_w = true) {
+        if (key_salto_e = true) {
+            if (key_salto_r = true) {
+                instance_destroy()
+                instance_create(x,y, obj_stickman_salto)
 
 //global.score +=10;
-}
+}}}}
 
 
 
