@@ -20,7 +20,9 @@
     <sprite>sprites\spr_box</sprite>
     <sprite>sprites\spr_stickman_backflip</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_trampoline_game</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_box</object>
