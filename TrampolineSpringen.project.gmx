@@ -18,6 +18,7 @@
     <sprite>sprites\spr_stickman_salto</sprite>
     <sprite>sprites\spr_stickman_staan</sprite>
     <sprite>sprites\spr_box</sprite>
+    <sprite>sprites\spr_stickman_backflip</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
