@@ -25,12 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Variables
-grav = 0.2;
+            <string>///Variabelen initialiseren
+grav = 0.4;
 hsp = 0;
 vsp = 0;
-jumpspeed = 6;
-movespeed = 3;
+jumpspeed = 10;
+movespeed = 5;
 </string>
           </argument>
         </arguments>
@@ -53,63 +53,45 @@ movespeed = 3;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Get the player's input
-key_right = keyboard_check(vk_right);
-key_left = -keyboard_check(vk_left);
-key_jump = keyboard_check_pressed(vk_space);
-key_salto =  keyboard_check_pressed(vk_shift);
+            <string>///Speler input script
+//Bewegings input
+rightKey = keyboard_check(vk_right);
+leftKey = -keyboard_check(vk_left);
+jumpKey = keyboard_check_pressed(vk_space);
 
-//salto keys 
+//Trucjes input (Met Q, W, E en R)
+truc1Key = keyboard_check(ord('Q'));
+truc2Key = keyboard_check(ord('W')); 
+truc3Key = keyboard_check(ord('E')); 
+truc4Key = keyboard_check(ord('R')); 
 
-key_salto_q = keyboard_check(ord('q'));
-key_salto_w = keyboard_check(ord('w')); 
-key_salto_e = keyboard_check(ord('e')); 
-key_salto_r = keyboard_check(ord('r'));
 
-//React to inputs
-move = key_left + key_right;
+//Horizontale beweging
+move = rightKey + leftKey
 hsp = move * movespeed;
-if (vsp &lt; 10) vsp += grav;
- 
-if (place_meeting(x,y+1,obj_trampoline))
+
+//Zwaartekracht
+if (vsp &lt;10)
 {
-    vsp = key_jump * -jumpspeed * 1.5;
-}
+    vsp += grav;
+} 
 
-if (place_meeting(x,y+1,obj_muur))
+//Springen
+if (place_meeting(x, y+1, obj_muur)) 
 {
-    vsp = key_jump * -jumpspeed;
-}
- 
-
-//maken van de salto
-if (key_salto_q = true) {
-    if (key_salto_w = true) {
-        if (key_salto_e = true) {
-            if (key_salto_r = true) {
-                instance_destroy()
-                instance_create(x,y, obj_stickman_salto)
-
-//global.score +=10;
-}}}}
-
-
-
-//Horizontal Collision muur
-if (place_meeting(x+hsp,y,obj_muur))
-{
-    while(!place_meeting(x+sign(hsp),y,obj_muur))
+    if (place_meeting(x, y+1, obj_trampoline))
     {
-        x += sign(hsp);
+    vsp = jumpKey * -jumpspeed *1.5;   //Sprong op de trampoline
+    } else {
+    vsp = jumpKey * -jumpspeed; //reguliere sprong
     }
-    hsp = 0;
+    
 }
-x += hsp;
- 
-//Vertical Collision muur
-if (place_meeting(x,y+vsp,obj_muur))
+
+//Verticale collision
+if (place_meeting(x, y+vsp, obj_muur))
 {
-    while(!place_meeting(x,y+sign(vsp),obj_muur))
+    while(!place_meeting(x, y+sign(vsp), obj_muur)) //Ookwel, wanneer je in de lucht bent:
     {
         y += sign(vsp);
     }
@@ -117,43 +99,48 @@ if (place_meeting(x,y+vsp,obj_muur))
 }
 y += vsp;
 
-//Horizontal Collision trampoline
-if (place_meeting(x+hsp,y,obj_trampoline))
+//Horizontale collision
+if (place_meeting(x+hsp, y, obj_muur))
 {
-    while(!place_meeting(x+sign(hsp),y,obj_trampoline))
+    while(!place_meeting(x+sign(hsp), y, obj_muur))
     {
         x += sign(hsp);
     }
     hsp = 0;
 }
 x += hsp;
- 
-//Vertical Collision trampoline
-if (place_meeting(x,y+vsp,obj_trampoline))
+
+/*
+Collision werkt ook met de trampoline zonder daarbij speciaal een code te schrijven.
+Dit komt omdat obj_trampoline nu de 'child' is van obj_muur, waarbij hij dezelfde voorwaarden
+als obj_muur deelt.
+*/
+
+//Uitvoeren van de verschillende trucs
+//Uitvoeren van truc1 (salto)
+if truc1Key
 {
-    while(!place_meeting(x,y+sign(vsp),obj_trampoline))
-    {
-        y += sign(vsp);
-    }
-    vsp = 0;
+    instance_destroy();
+    instance_create(x,y, obj_stickman_salto);
 }
-y += vsp;
 
-
-//make sure player does not go of the screen
-//y
-if (y&lt;=0) {
-    y=room_height -1;
-} else if (y&gt;=room_height) {
-    y = 1;
+//Uitvoeren van truc2
+if truc2Key
+{
+    show_message("Werkt het?");
 }
-//x
-x=clamp(x,40,1400);
-//make sure the player object stays in front of the trampoline
-depth= 0;
 
+//Uitvoeren van truc3
+if truc3Key
+{
+    show_message("Message om te checken of het werkt...");
+}
 
-
+//Uitvoeren van truc4
+if truc4Key
+{
+    show_message("Mooie truc4 G!");
+}
 </string>
           </argument>
         </arguments>
