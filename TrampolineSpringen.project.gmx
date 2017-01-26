@@ -40,6 +40,7 @@
       <object>objects\obj_backgroundmusic_trampoline</object>
     </objects>
     <object>objects\obj_stickman_pirouette</object>
+    <object>objects\obj_stickman_backflip</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>

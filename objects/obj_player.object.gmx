@@ -128,13 +128,14 @@ if truc1Key
 if truc2Key
 {
     instance_destroy();
-    instance_create(x,y, obj_stickman_pirouette);
+    instance_create(x,y, obj_stickman_backflip);
 }
 
 //Uitvoeren van truc3
 if truc3Key
 {
-    show_message("Message om te checken of het werkt...");
+    instance_destroy();
+    instance_create(x,y, obj_stickman_pirouette);
 }
 
 //Uitvoeren van truc4
