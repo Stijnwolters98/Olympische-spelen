@@ -25,6 +25,10 @@
     <background>background\bg_trampoline_game</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_gameover</font>
+    <font>fonts\fnt_timerfont</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_box</object>
     <object>objects\obj_settings1</object>
@@ -41,6 +45,9 @@
     </objects>
     <object>objects\obj_stickman_pirouette</object>
     <object>objects\obj_stickman_backflip</object>
+    <object>objects\ob_score</object>
+    <object>objects\ob_timer</object>
+    <object>objects\obj_gameover</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>
