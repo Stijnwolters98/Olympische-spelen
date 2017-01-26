@@ -127,7 +127,8 @@ if truc1Key
 //Uitvoeren van truc2
 if truc2Key
 {
-    show_message("Werkt het?");
+    instance_destroy();
+    instance_create(x,y, obj_stickman_pirouette);
 }
 
 //Uitvoeren van truc3

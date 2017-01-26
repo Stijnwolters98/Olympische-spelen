@@ -19,6 +19,7 @@
     <sprite>sprites\spr_stickman_staan</sprite>
     <sprite>sprites\spr_box</sprite>
     <sprite>sprites\spr_stickman_backflip</sprite>
+    <sprite>sprites\spr_stickman_pirouette</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
@@ -38,6 +39,7 @@
       <object>objects\obj_olympic_intro_song</object>
       <object>objects\obj_backgroundmusic_trampoline</object>
     </objects>
+    <object>objects\obj_stickman_pirouette</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>
