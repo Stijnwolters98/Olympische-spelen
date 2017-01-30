@@ -59,11 +59,25 @@ rightKey = keyboard_check(vk_right);
 leftKey = -keyboard_check(vk_left);
 jumpKey = keyboard_check_pressed(vk_space);
 
-//Trucjes input (Met Q, W, E en R)
-truc1Key = keyboard_check(ord('Q'));
-truc2Key = keyboard_check(ord('W')); 
-truc3Key = keyboard_check(ord('E')); 
-truc4Key = keyboard_check(ord('R')); 
+//Trucjes input
+//salto
+truc_salto1 = keyboard_check(ord('Q'));
+truc_salto2 = keyboard_check(ord('W'));
+truc_salto3 = keyboard_check(ord('E'));
+truc_salto4 = keyboard_check(ord('R'));
+//backflip
+truc_backflip1 = keyboard_check(ord('A'));
+truc_backflip2 = keyboard_check(ord('S'));
+truc_backflip3 = keyboard_check(ord('D'));
+truc_backflip4 = keyboard_check(ord('F'));
+//pirouette
+truc_pirouette1 = keyboard_check(ord('Z'));
+truc_pirouette2 = keyboard_check(ord('X'));
+truc_pirouette3 = keyboard_check(ord('C'));
+truc_pirouette4 = keyboard_check(ord('V'));
+
+
+//truc4Key = keyboard_check(ord('R'));
 
 
 //Horizontale beweging
@@ -77,6 +91,11 @@ if (vsp &lt;10)
 } 
 
 //Springen
+if jumpKey {
+    instance_destroy();
+    instance_create(x,y, obj_stickman_springen);
+}
+/*
 if (place_meeting(x, y+1, obj_muur)) 
 {
     if (place_meeting(x, y+1, obj_trampoline))
@@ -87,7 +106,7 @@ if (place_meeting(x, y+1, obj_muur))
     }
     
 }
-
+*/
 //Verticale collision
 if (place_meeting(x, y+vsp, obj_muur))
 {
@@ -118,31 +137,30 @@ als obj_muur deelt.
 
 //Uitvoeren van de verschillende trucs
 //Uitvoeren van truc1 (salto)
-if truc1Key
-{
+if truc_salto1 {
     instance_destroy();
     instance_create(x,y, obj_stickman_salto);
 }
 
-//Uitvoeren van truc2
-if truc2Key
+//Uitvoeren van truc2 (backflip)
+if truc_backflip1
 {
     instance_destroy();
     instance_create(x,y, obj_stickman_backflip);
 }
 
-//Uitvoeren van truc3
-if truc3Key
+//Uitvoeren van truc3 (pirouette)
+if truc_pirouette1
 {
     instance_destroy();
     instance_create(x,y, obj_stickman_pirouette);
 }
 
 //Uitvoeren van truc4
-if truc4Key
-{
-    show_message("Mooie truc4 G!");
-}
+//if truc4Key
+//{
+//    show_message("Mooie truc4 G!");
+//}
 </string>
           </argument>
         </arguments>

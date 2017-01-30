@@ -25,7 +25,27 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = 50;
+            <string>truc_salto1 = keyboard_check(ord('Z'));
+truc_salto2 = keyboard_check(ord('X'));
+truc_salto3 = keyboard_check(ord('C'));
+truc_salto4 = keyboard_check(ord('V'));
+
+if truc_salto1 {
+alarm[0] = 12.5;
+}
+
+if truc_salto2 {
+alarm[0] = 25;
+}
+
+if truc_salto3 {
+alarm[0] = 37.5;
+}
+
+if truc_salto4 {
+alarm[0] = 50;
+global.score =+12
+}
 </string>
           </argument>
         </arguments>
