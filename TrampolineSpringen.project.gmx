@@ -31,7 +31,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_box</object>
-    <object>objects\obj_settings1</object>
+    <object>objects\obj_room_reset</object>
     <object>objects\obj_player</object>
     <object>objects\obj_muur</object>
     <object>objects\obj_trampoline</object>

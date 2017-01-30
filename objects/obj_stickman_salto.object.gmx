@@ -44,7 +44,7 @@ alarm[0] = 37.5;
 
 if truc_salto4 {
 alarm[0] = 50;
-global.score =+10
+global.score +=10;
 }
 </string>
           </argument>

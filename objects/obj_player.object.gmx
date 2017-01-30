@@ -77,7 +77,7 @@ truc_pirouette3 = keyboard_check(ord('C'));
 truc_pirouette4 = keyboard_check(ord('V'));
 
 
-//truc4Key = keyboard_check(ord('R'));
+truc4Key = keyboard_check(ord('J'));
 
 
 //Horizontale beweging
@@ -91,11 +91,6 @@ if (vsp &lt;10)
 } 
 
 //Springen
-if jumpKey {
-    instance_destroy();
-    instance_create(x,y, obj_stickman_springen);
-}
-/*
 if (place_meeting(x, y+1, obj_muur)) 
 {
     if (place_meeting(x, y+1, obj_trampoline))
@@ -106,7 +101,7 @@ if (place_meeting(x, y+1, obj_muur))
     }
     
 }
-*/
+
 //Verticale collision
 if (place_meeting(x, y+vsp, obj_muur))
 {
@@ -157,10 +152,10 @@ if truc_pirouette1
 }
 
 //Uitvoeren van truc4
-//if truc4Key
-//{
-//    show_message("Mooie truc4 G!");
-//}
+if truc4Key
+{
+    show_message("Mooie truc4 G!");
+}
 </string>
           </argument>
         </arguments>

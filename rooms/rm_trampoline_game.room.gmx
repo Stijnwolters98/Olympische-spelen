@@ -54,7 +54,7 @@
     <instance objName="obj_player" x="144" y="224" name="inst_F2236953" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trampoline" x="416" y="608" name="inst_4D22F570" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_backgroundmusic_trampoline" x="96" y="64" name="inst_EB12CD23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_settings1" x="112" y="80" name="inst_D6C04C2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_room_reset" x="112" y="80" name="inst_D6C04C2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_muur" x="528" y="800" name="inst_0BECF7E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_muur" x="512" y="800" name="inst_CC6069D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_muur" x="496" y="800" name="inst_95848C17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

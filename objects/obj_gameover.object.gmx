@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>draw_set_font(fnt_gameover)
 draw_set_color(c_red)
-draw_text(x,y,"Game Over")
+draw_text(x,y,"Finish")
 </string>
           </argument>
         </arguments>
