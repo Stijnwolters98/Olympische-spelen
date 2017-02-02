@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>myTime=60.0
+            <string>myTime=10.0
 showTime=myTime
 </string>
           </argument>
@@ -60,9 +60,12 @@ with (obj_player)
    {
     instance_destroy();
    }
- }
+ {
+   room_goto(room3);
+   }
  
-
+  
+   }
 showTime=ceil(myTime)
 
 </string>
