@@ -20,6 +20,7 @@
     <sprite>sprites\spr_box</sprite>
     <sprite>sprites\spr_stickman_backflip</sprite>
     <sprite>sprites\spr_stickman_pirouette</sprite>
+    <sprite>sprites\spr_scorebord</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
