@@ -77,7 +77,7 @@ truc_pirouette3 = keyboard_check(ord('C'));
 truc_pirouette4 = keyboard_check(ord('V'));
 
 //springen
-truc_springen1 = keyboard_check(ord('vk_space'));
+truc_springen1 = keyboard_check(ord('M'));
 
 truc4Key = keyboard_check(ord('J'));
 
