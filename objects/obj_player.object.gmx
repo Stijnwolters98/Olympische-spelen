@@ -76,6 +76,8 @@ truc_pirouette2 = keyboard_check(ord('X'));
 truc_pirouette3 = keyboard_check(ord('C'));
 truc_pirouette4 = keyboard_check(ord('V'));
 
+//springen
+truc_springen1 = keyboard_check(ord('vk_space'));
 
 truc4Key = keyboard_check(ord('J'));
 
@@ -155,6 +157,12 @@ if truc_pirouette1
 if truc4Key
 {
     show_message("Mooie truc4 G!");
+}
+
+//Uitvoeren van springen (spring)
+if truc_springen1 {
+    instance_destroy();
+    instance_create(x,y, obj_stickman_springen);
 }
 </string>
           </argument>

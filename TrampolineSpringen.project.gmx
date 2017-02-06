@@ -24,7 +24,6 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
-    <background>background\bg_score</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -48,19 +47,12 @@
       <object>objects\obj_backgroundmusic_trampoline</object>
     </objects>
     <object>objects\obj_score</object>
-    <object>objects\obj_score2</object>
     <object>objects\obj_timer</object>
     <object>objects\obj_gameover</object>
-    <object>objects\object16</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>
     <room>rooms\rm_trampoline_game</room>
-<<<<<<< HEAD
-    <room>rooms\room3</room>
-=======
-    <room>rooms\rm_score</room>
->>>>>>> d19f216ffbf048d589c64a703832756f42990999
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
