@@ -44,6 +44,7 @@ alarm[0] = 37.5;
 
 if truc_salto4 {
 alarm[0] = 50;
+audio_play_sound(snd_goed_gedaan_pling, 1, false);
 global.score +=10;
 }
 </string>

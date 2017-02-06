@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>myTime=10.0
+            <string>myTime=60.0
 showTime=myTime
 </string>
           </argument>
@@ -54,14 +54,14 @@ if myTime &gt;= 0 {
 myTime=myTime-delta_time/1000000
  }
  else {
-instance_create(room_width/2, room_height/2, obj_gameover);
-
+instance_create(room_width/2, room_height/2, obj_game_finished);
+audio_play_sound(snd_applous, 1, false);
 with (obj_player)
    {
     instance_destroy();
    }
  {
-   room_goto(room3);
+   room_goto(rm_eind_score);
    }
  
   

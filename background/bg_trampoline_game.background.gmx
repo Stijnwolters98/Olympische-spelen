@@ -13,7 +13,7 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>1152</width>
-  <height>721</height>
+  <width>1440</width>
+  <height>900</height>
   <data>images\bg_trampoline_game.png</data>
 </background>
