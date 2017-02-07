@@ -106,12 +106,7 @@ if (place_meeting(x, y+1, obj_muur))
 
 //spring geluid
 
-if (jumpKey == true and place_meeting(x, y+1, obj_muur)) {
- audio_play_sound(snd_jump_trampoline_game, 1, false);
-
-}
-
-if (jumpKey == true and place_meeting(x, y+1, obj_trampoline)) {
+if (jumpKey == true and place_meeting(x, y+1, obj_muur) == true) {
  audio_play_sound(snd_jump_trampoline_game, 1, false);
 
 }
