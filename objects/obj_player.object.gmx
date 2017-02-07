@@ -106,10 +106,16 @@ if (place_meeting(x, y+1, obj_muur))
 
 //spring geluid
 
-if (jumpKey == true) {
+if (jumpKey == true and place_meeting(x, y+1, obj_muur)) {
  audio_play_sound(snd_jump_trampoline_game, 1, false);
 
 }
+
+if (jumpKey == true and place_meeting(x, y+1, obj_trampoline)) {
+ audio_play_sound(snd_jump_trampoline_game, 1, false);
+
+}
+
 
 
 //Verticale collision
