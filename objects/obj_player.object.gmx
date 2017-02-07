@@ -96,11 +96,21 @@ if (place_meeting(x, y+1, obj_muur))
     if (place_meeting(x, y+1, obj_trampoline))
     {
     vsp = jumpKey * -jumpspeed *1.5;   //Sprong op de trampoline
+
     } else {
     vsp = jumpKey * -jumpspeed; //reguliere sprong
+
     }
     
 }
+
+//spring geluid
+
+if (jumpKey == true) {
+ audio_play_sound(snd_jump_trampoline_game, 1, false);
+
+}
+
 
 //Verticale collision
 if (place_meeting(x, y+vsp, obj_muur))
