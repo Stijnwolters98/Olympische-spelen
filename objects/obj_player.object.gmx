@@ -53,7 +53,8 @@ movespeed = 5;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Speler input script
+            <string>////Speler input script
+
 //Bewegings input
 rightKey = keyboard_check(vk_right);
 leftKey = -keyboard_check(vk_left);
@@ -143,9 +144,11 @@ als obj_muur deelt.
 
 //Uitvoeren van de verschillende trucs
 //Uitvoeren van truc1 (salto)
+
 if truc_salto1 {
     instance_destroy();
     instance_create(x,y, obj_stickman_salto);
+
 }
 
 //Uitvoeren van truc2 (backflip)
@@ -153,6 +156,7 @@ if truc_backflip1
 {
     instance_destroy();
     instance_create(x,y, obj_stickman_backflip);
+    
 }
 
 //Uitvoeren van truc3 (pirouette)
@@ -167,6 +171,7 @@ if truc4Key
 {
     show_message("Mooie truc4 G!");
 }
+
 </string>
           </argument>
         </arguments>
