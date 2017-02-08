@@ -29,6 +29,7 @@
     <sprite>sprites\spr_jury_ingezoomd</sprite>
     <sprite>sprites\spr_exit_button</sprite>
     <sprite>sprites\spr_play_button</sprite>
+    <sprite>sprites\spr_credits_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
@@ -68,6 +69,7 @@
       <object>objects\obj_truclijst</object>
       <object>objects\obj_button_parent</object>
     </objects>
+    <object>objects\obj_credits_button</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>
