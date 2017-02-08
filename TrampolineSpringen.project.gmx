@@ -16,6 +16,7 @@
     <sprite>sprites\spr_muur</sprite>
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_trampoline</sprite>
+    <sprite>sprites\spr_trampoline_button2</sprite>
     <sprite>sprites\spr_trampoline_button</sprite>
     <sprite>sprites\spr_olympic_logo</sprite>
     <sprite>sprites\spr_stickman_springen</sprite>
@@ -53,6 +54,7 @@
       <object>objects\obj_stickman_salto</object>
       <object>objects\obj_stickman_backflip</object>
       <object>objects\obj_stickman_pirouette</object>
+      <object>objects\obj_trampoline_button2</object>
       <object>objects\obj_trampoline_button</object>
       <objects name="sound">
         <object>objects\obj_olympic_intro_song</object>
