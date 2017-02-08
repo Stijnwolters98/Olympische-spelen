@@ -18,6 +18,9 @@
     <sprite>sprites\spr_play_button</sprite>
     <sprite>sprites\spr_credits_button</sprite>
     <sprite>sprites\spr_player</sprite>
+    <sprites name="horde_game_sprites">
+      <sprite>sprites\spr_horde</sprite>
+    </sprites>
     <sprites name="trampoline_game_sprites">
       <sprite>sprites\spr_muur</sprite>
       <sprite>sprites\spr_trampoline</sprite>
