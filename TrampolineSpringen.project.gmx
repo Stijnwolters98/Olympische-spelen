@@ -20,6 +20,7 @@
     <sprite>sprites\spr_player</sprite>
     <sprites name="horde_game_sprites">
       <sprite>sprites\spr_horde</sprite>
+      <sprite>sprites\spr_exit_hordelopen</sprite>
     </sprites>
     <sprites name="trampoline_game_sprites">
       <sprite>sprites\spr_muur</sprite>
@@ -51,6 +52,7 @@
     <object>objects\obj_play_button</object>
     <object>objects\obj_exit_button</object>
     <object>objects\obj_credits_button</object>
+    <object>objects\obj_exit_naar_beginscherm</object>
     <objects name="trampoline_game_objects">
       <object>objects\obj_stickman_springen</object>
       <object>objects\obj_player</object>
@@ -73,9 +75,6 @@
         <object>objects\obj_olympic_intro_song</object>
         <object>objects\obj_backgroundmusic_trampoline</object>
       </objects>
-    </objects>
-    <objects name="hordelopen_game_objects">
-      <object>objects\obj_exit_hordelopen</object>
     </objects>
   </objects>
   <rooms name="rooms">
