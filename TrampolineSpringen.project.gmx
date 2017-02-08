@@ -51,8 +51,8 @@
       <object>objects\obj_trampoline</object>
       <object>objects\obj_box</object>
       <object>objects\obj_stickman_salto</object>
-      <object>objects\obj_stickman_pirouette</object>
       <object>objects\obj_stickman_backflip</object>
+      <object>objects\obj_stickman_pirouette</object>
       <object>objects\obj_trampoline_button</object>
       <objects name="sound">
         <object>objects\obj_olympic_intro_song</object>
