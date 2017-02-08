@@ -78,6 +78,7 @@
     <room>rooms\rm_eind_trampoline_game_score</room>
     <room>rooms\rm_hordelopen_game</room>
     <room>rooms\rm_eind_hordelopen_game_score</room>
+    <room>rooms\rm_credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
