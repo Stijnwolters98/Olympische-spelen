@@ -25,7 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>truc_salto1 = keyboard_check(ord('Q'));
+            <string>if (place_meeting(x, y+1, obj_muur) == true) {
+ instance_change(obj_player, true)
+
+}
+
+else {
+
+truc_salto1 = keyboard_check(ord('Q'));
 truc_salto2 = keyboard_check(ord('W'));
 truc_salto3 = keyboard_check(ord('E'));
 truc_salto4 = keyboard_check(ord('R'));
@@ -46,6 +53,7 @@ if truc_salto4 {
 alarm[0] = 50;
 audio_play_sound(snd_goed_gedaan_pling, 1, false);
 global.score +=10;
+}
 }
 </string>
           </argument>
