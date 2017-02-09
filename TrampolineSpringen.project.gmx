@@ -86,6 +86,7 @@
     <objects name="hordelopen_game_objects">
       <object>objects\obj_hordelopen_player</object>
     </objects>
+    <object>objects\obj_hordeloop_button</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>
