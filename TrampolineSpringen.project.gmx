@@ -15,9 +15,10 @@
   <sprites name="sprites">
     <sprite>sprites\spr_olympic_logo</sprite>
     <sprite>sprites\spr_exit_button</sprite>
-    <sprite>sprites\spr_play_button</sprite>
+    <sprite>sprites\spr_restart_button</sprite>
     <sprite>sprites\spr_credits_button</sprite>
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_hordeloop_button</sprite>
     <sprites name="horde_game_sprites">
       <sprite>sprites\spr_staanhorde</sprite>
       <sprite>sprites\spr_horde</sprite>
@@ -39,7 +40,6 @@
       <sprite>sprites\spr_stickman_lopenR</sprite>
       <sprite>sprites\spr_stickman_lopenL</sprite>
     </sprites>
-    <sprite>sprites\spr_hordeloop_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
@@ -54,7 +54,7 @@
     <font>fonts\fnt_truclijst</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_play_button</object>
+    <object>objects\obj_restart_button</object>
     <object>objects\obj_exit_button</object>
     <object>objects\obj_hordeloop_button</object>
     <object>objects\obj_credits_button</object>

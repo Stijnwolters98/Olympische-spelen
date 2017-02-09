@@ -248,8 +248,8 @@
     <instance objName="obj_timer" x="1312" y="752" name="inst_7283DBA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_total_score" x="656" y="64" name="inst_F21E1C13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_truclijst" x="96" y="160" name="inst_8D437410" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit_naar_beginscherm" x="1280" y="32" name="inst_ADCFE58C" locked="0" code="" scaleX="0.875" scaleY="0.75" colour="4294967295" rotation="0"/>
-    <instance objName="obj_play_button" x="64" y="64" name="inst_F7B3FA70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit_naar_beginscherm" x="64" y="48" name="inst_ADCFE58C" locked="0" code="" scaleX="0.875" scaleY="0.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_restart_button" x="1040" y="0" name="inst_F7B3FA70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
