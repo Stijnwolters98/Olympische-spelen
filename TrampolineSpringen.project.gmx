@@ -55,6 +55,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_restart_button</object>
+    <object>objects\obj_credits</object>
     <object>objects\obj_exit_button</object>
     <object>objects\obj_hordeloop_button</object>
     <object>objects\obj_credits_button</object>
