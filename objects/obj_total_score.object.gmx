@@ -49,10 +49,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_color(c_blue);
-draw_text(x,y, "Score: " + string (global.score)
+            <string>
+draw_set_color(c_blue);
+draw_set_halign(fa_center);
+draw_text(x,y, "Score: "   + string (global.score)
 
-)
+);
 </string>
           </argument>
         </arguments>
