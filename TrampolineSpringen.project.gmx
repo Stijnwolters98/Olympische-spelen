@@ -36,6 +36,7 @@
       <sprite>sprites\spr_trampoline_button</sprite>
       <sprite>sprites\spr_trampoline_button2</sprite>
       <sprite>sprites\spr_stickman_springen</sprite>
+      <sprite>sprites\spr_stickman_lopen</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -76,6 +77,7 @@
         <object>objects\obj_olympic_intro_song</object>
         <object>objects\obj_backgroundmusic_trampoline</object>
       </objects>
+      <object>objects\obj_stickman_lopen</object>
     </objects>
     <objects name="hordelopen_game_objects">
       <object>objects\obj_hordelopen_player</object>
