@@ -60,6 +60,7 @@ rightKey = keyboard_check_pressed(vk_right);
 leftKey = -keyboard_check_pressed(vk_left);
 jumpKey = keyboard_check_pressed(vk_space);
 
+
 //Trucjes input
 //salto
 truc_salto1 = keyboard_check(ord('Q'));
