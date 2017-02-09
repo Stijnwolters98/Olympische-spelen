@@ -26,14 +26,22 @@
           <argument>
             <kind>1</kind>
             <string>{
-credits = "Scrolling#Credits Example###written by##Trenton Kidder## "; 
-credits += "This is example text for scrolling end credits.#";
-credits += "Feel free to add as many lines as you want.#";
-credits += "The end credits will wrap once#";
-credits += "the last line of the text has disappeared#";
-credits += "from the screen...";
+credits = "####Deze game is gemaakt door:##
+Faraaz#
+Sam#
+Robbie#
+Eric#
+Florence#
+Lisa#
+Stijn#
+Martin Meyer### "; 
+credits += "De muziek is overgenomen van het spel: Mario en Sonic the olympic games#";
+credits += "De players zijn zelf gemaakt#";
+credits += "#";
+
+credits += "Wij hopen dat je van de game hebt genoten!";
 y = room_height;
-vspeed = -1;
+vspeed = -2;
 }
 </string>
           </argument>
