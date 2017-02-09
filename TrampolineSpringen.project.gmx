@@ -52,6 +52,7 @@
     <font>fonts\fnt_gameover</font>
     <font>fonts\fnt_timerfont</font>
     <font>fonts\fnt_truclijst</font>
+    <font>fonts\fnt_credits</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_restart_button</object>
