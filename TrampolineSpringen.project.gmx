@@ -36,7 +36,6 @@
       <sprite>sprites\spr_trampoline_button2</sprite>
       <sprite>sprites\spr_stickman_springen</sprite>
     </sprites>
-    <sprite>sprites\sprite19</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
