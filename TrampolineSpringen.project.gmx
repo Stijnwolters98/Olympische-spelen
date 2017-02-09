@@ -76,6 +76,9 @@
         <object>objects\obj_backgroundmusic_trampoline</object>
       </objects>
     </objects>
+    <objects name="hordelopen_game_objects">
+      <object>objects\obj_hordelopen_player</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>
