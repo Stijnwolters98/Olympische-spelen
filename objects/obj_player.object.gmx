@@ -30,7 +30,7 @@ grav = 0.4;
 hsp = 0;
 vsp = 0;
 jumpspeed = 10;
-movespeed = 5;
+movespeed = 2.5;
 </string>
           </argument>
         </arguments>
@@ -53,7 +53,7 @@ movespeed = 5;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>////Speler input script
+            <string>///Speler input script
 
 //Bewegings input
 rightKey = keyboard_check(vk_right);
@@ -84,6 +84,11 @@ truc4Key = keyboard_check(ord('J'));
 //Horizontale beweging
 move = rightKey + leftKey
 hsp = move * movespeed;
+
+//Halveren hsp
+if (place_meeting(x, y+1, obj_muur) == true) {
+ hsp = 2*move*movespeed;
+}
 
 //Zwaartekracht
 if (vsp &lt;10)
