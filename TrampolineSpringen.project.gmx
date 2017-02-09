@@ -39,11 +39,13 @@
       <sprite>sprites\spr_stickman_lopenR</sprite>
       <sprite>sprites\spr_stickman_lopenL</sprite>
     </sprites>
+    <sprite>sprites\spr_hordeloop_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
     <background>background\bg_trampoline_achtergrond2</background>
     <background>background\bg_beginscherm</background>
+    <background>background\bg_hordeloop_game</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
