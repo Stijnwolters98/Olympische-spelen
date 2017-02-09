@@ -141,6 +141,20 @@ if (place_meeting(x+hsp, y, obj_muur))
 }
 x += hsp;
 
+
+//naar rechts en links lopen animatie
+if (place_meeting(x, y+1, obj_muur)and rightKey == true) {
+    instance_destroy();
+    instance_create(x,y, obj_stickman_lopenR);
+
+}
+
+if (place_meeting(x, y+1, obj_muur)and rightKey == true) {
+    instance_destroy();
+    instance_create(x,y, obj_stickman_lopenL);
+
+}
+
 /*
 Collision werkt ook met de trampoline zonder daarbij speciaal een code te schrijven.
 Dit komt omdat obj_trampoline nu de 'child' is van obj_muur, waarbij hij dezelfde voorwaarden

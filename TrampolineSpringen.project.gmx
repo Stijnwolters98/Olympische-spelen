@@ -70,8 +70,6 @@
       <object>objects\obj_box</object>
       <object>objects\obj_stickman_salto</object>
       <object>objects\obj_stickman_backflip</object>
-      <object>objects\obj_stickman_lopenR</object>
-      <object>objects\obj_stickman_lopenL</object>
       <object>objects\obj_stickman_pirouette</object>
       <object>objects\obj_trampoline_button2</object>
       <object>objects\obj_trampoline_button</object>
@@ -86,6 +84,8 @@
         <object>objects\obj_olympic_intro_song</object>
         <object>objects\obj_backgroundmusic_trampoline</object>
       </objects>
+      <object>objects\obj_stickman_lopenR</object>
+      <object>objects\obj_stickman_lopenL</object>
     </objects>
     <objects name="hordelopen_game_objects">
       <object>objects\obj_hordelopen_player</object>
