@@ -56,10 +56,9 @@ movespeed = 2.5;
             <string>///Speler input script
 
 //Bewegings input
-rightKey = keyboard_check_pressed(vk_right);
-leftKey = -keyboard_check_pressed(vk_left);
+rightKey = keyboard_check(vk_right);
+leftKey = -keyboard_check(vk_left);
 jumpKey = keyboard_check_pressed(vk_space);
-
 
 //Trucjes input
 //salto
@@ -144,17 +143,8 @@ x += hsp;
 
 
 //naar rechts en links lopen animatie
-if (place_meeting(x, y+1, obj_muur)and rightKey == true) {
-    instance_destroy();
-    instance_create(x,y, obj_stickman_lopenR);
 
-}
 
-if (place_meeting(x, y+1, obj_muur)and leftKey == true) {
-    instance_destroy();
-    instance_create(x,y, obj_stickman_lopenL);
-
-}
 
 /*
 Collision werkt ook met de trampoline zonder daarbij speciaal een code te schrijven.
