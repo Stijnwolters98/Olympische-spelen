@@ -143,7 +143,11 @@ x += hsp;
 
 
 //naar rechts en links lopen animatie
+if (place_meeting(x, y+1, obj_muur)and leftKey == true) {
+    instance_destroy();
+    instance_create(x,y, obj_stickman_lopenL);
 
+}
 
 
 /*
