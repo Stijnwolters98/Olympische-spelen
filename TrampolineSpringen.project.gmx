@@ -64,7 +64,6 @@
     <object>objects\obj_exit_button</object>
     <object>objects\obj_hordeloop_button</object>
     <object>objects\obj_credits_button</object>
-    <object>objects\obj_player</object>
     <objects name="trampoline_game_objects">
       <object>objects\obj_stickman_springen</object>
       <object>objects\obj_player</object>
@@ -94,6 +93,7 @@
       <object>objects\obj_hordelopen_player</object>
       <object>objects\obj_backgroundmusic_hordelopen</object>
     </objects>
+    <object>objects\obj_beginscherm_menu</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>

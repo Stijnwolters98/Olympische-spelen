@@ -51,7 +51,6 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_player" x="144" y="224" name="inst_F2236953" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trampoline" x="416" y="608" name="inst_4D22F570" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_backgroundmusic_trampoline" x="96" y="64" name="inst_EB12CD23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_room_reset" x="112" y="80" name="inst_D6C04C2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -248,7 +247,6 @@
     <instance objName="obj_timer" x="1312" y="752" name="inst_7283DBA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_total_score" x="656" y="64" name="inst_F21E1C13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_truclijst" x="96" y="160" name="inst_8D437410" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="64" y="48" name="inst_ADCFE58C" locked="0" code="" scaleX="0.875" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_restart_button" x="1120" y="48" name="inst_F7B3FA70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
