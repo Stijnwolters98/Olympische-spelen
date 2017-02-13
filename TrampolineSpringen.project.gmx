@@ -24,6 +24,7 @@
       <sprite>sprites\spr_staanhorde</sprite>
       <sprite>sprites\spr_horde</sprite>
       <sprite>sprites\spr_exit_hordelopen</sprite>
+      <sprite>sprites\spr_hordelopen</sprite>
     </sprites>
     <sprites name="trampoline_game_sprites">
       <sprite>sprites\spr_muur</sprite>
@@ -61,7 +62,7 @@
     <object>objects\obj_exit_button</object>
     <object>objects\obj_hordeloop_button</object>
     <object>objects\obj_credits_button</object>
-    <object>objects\obj_exit_naar_beginscherm</object>
+    <object>objects\obj_player</object>
     <objects name="trampoline_game_objects">
       <object>objects\obj_stickman_springen</object>
       <object>objects\obj_player</object>
