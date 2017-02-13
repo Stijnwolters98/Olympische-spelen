@@ -8,47 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>{
-credits = "####Deze game is gemaakt door:##
-Faraaz Youssifou#
-Sam Groot#
-Robbie Post#
-Eric van der Woude#
-Florence Springer#
-Lisa Hu#
-Stijn Wolters#
-Martin Meyer### "; 
-credits += "De muziek is overgenomen van het spel: Mario en Sonic the olympic games#";
-credits += "De players zijn zelf gemaakt#";
-credits += "#";
-
-credits += "Wij hopen dat je van de game hebt genoten!";
-y = room_height;
-vspeed = -2;
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -66,14 +26,12 @@ vspeed = -2;
           <argument>
             <kind>1</kind>
             <string>
-{
-draw_set_color(c_black);
-draw_set_halign(fa_center);
-draw_set_valign(fa_center);
-draw_set_font(fnt_credits);
-draw_text(x,y,credits);
-if ( y &lt; -string_height(credits) ) y = room_height;
-}
+
+
+draw_highscore(40,80,600,400);
+//Parametres are for the position
+
+draw_text(640/2-100, 480-32, "Press C to clear high score");
 </string>
           </argument>
         </arguments>
