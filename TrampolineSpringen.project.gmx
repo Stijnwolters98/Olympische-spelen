@@ -32,12 +32,27 @@
       <sprite>sprites\spr_box</sprite>
       <sprite>sprites\spr_stickman_staan</sprite>
       <sprite>sprites\spr_stickman_backflip</sprite>
+      <sprite>sprites\spr_scoreborden1_begin</sprite>
+      <sprite>sprites\spr_scoreborden2_begin</sprite>
+      <sprite>sprites\spr_scoreborden3_begin</sprite>
       <sprite>sprites\spr_scoreborden1</sprite>
       <sprite>sprites\spr_scoreborden2</sprite>
       <sprite>sprites\spr_scoreborden3</sprite>
-      <sprite>sprites\spr_scoreborden1_einde</sprite>
-      <sprite>sprites\spr_scoreborden2_einde</sprite>
-      <sprite>sprites\spr_scoreborden3_einde</sprite>
+      <sprite>sprites\spr_scoreborden1_einde1</sprite>
+      <sprite>sprites\spr_scorreborde1_einde2</sprite>
+      <sprite>sprites\spr_scorreborde1_einde3</sprite>
+      <sprite>sprites\spr_scorreborde1_einde4</sprite>
+      <sprite>sprites\spr_scorreborde1_einde5</sprite>
+      <sprite>sprites\spr_scorreborde2_einde1</sprite>
+      <sprite>sprites\spr_scorreborde2_einde2</sprite>
+      <sprite>sprites\spr_scorreborde2_einde3</sprite>
+      <sprite>sprites\spr_scorreborde2_einde4</sprite>
+      <sprite>sprites\spr_scoreborden2_einde5</sprite>
+      <sprite>sprites\spr_scoreborden3_einde1</sprite>
+      <sprite>sprites\spr_scorreborde3_einde2</sprite>
+      <sprite>sprites\spr_scorreborde3_einde3</sprite>
+      <sprite>sprites\spr_scorreborde3_einde4</sprite>
+      <sprite>sprites\spr_scorreborde3_einde5</sprite>
       <sprite>sprites\spr_jury_ingezoomd</sprite>
       <sprite>sprites\spr_stickman_salto</sprite>
       <sprite>sprites\spr_trampoline_button</sprite>
@@ -61,6 +76,7 @@
     <font>fonts\fnt_truclijst</font>
     <font>fonts\fnt_credits</font>
     <font>fonts\fnt_highscore</font>
+    <font>fonts\fnt_score1</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_restart_button</object>
@@ -97,17 +113,18 @@
       <object>objects\obj_score1</object>
       <object>objects\obj_score2</object>
       <object>objects\obj_score3</object>
+      <object>objects\obj_score4</object>
     </objects>
     <objects name="hordelopen_game_objects">
       <object>objects\obj_hordelopen_player</object>
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_eind_trampoline_game_score</room>
     <room>rooms\rm_begin_scherm</room>
     <room>rooms\rm_credits</room>
     <rooms name="Trampoline Rooms">
       <room>rooms\rm_trampoline_game</room>
-      <room>rooms\rm_eind_trampoline_game_score</room>
     </rooms>
     <rooms name="Hordelopen Rooms">
       <room>rooms\rm_eind_hordelopen_game_score</room>

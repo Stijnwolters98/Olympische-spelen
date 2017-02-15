@@ -54,8 +54,8 @@
     <instance objName="obj_score_eindscherm" x="416" y="224" name="inst_99AE0527" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_score1" x="164" y="58" name="inst_E6097A08" locked="0" code="" scaleX="4.41269826889038" scaleY="2.7619047164917" colour="4294967295" rotation="0"/>
     <instance objName="obj_score2" x="430" y="50" name="inst_82D5151D" locked="0" code="" scaleX="4.5" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="obj_score1" x="699" y="50" name="inst_B9E0AAFF" locked="0" code="" scaleX="4.57142877578735" scaleY="3.04761910438538" colour="4294967295" rotation="0"/>
-    <instance objName="obj_score3" x="967" y="50" name="inst_AFD5084A" locked="0" code="" scaleX="4.57142877578735" scaleY="3.04761910438538" colour="4294967295" rotation="0"/>
+    <instance objName="obj_score4" x="967" y="50" name="inst_AFD5084A" locked="0" code="" scaleX="4.57142877578735" scaleY="3.04761910438538" colour="4294967295" rotation="0"/>
+    <instance objName="obj_score3" x="698" y="44" name="inst_2036A01F" locked="0" code="" scaleX="4.57142877578735" scaleY="3" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
