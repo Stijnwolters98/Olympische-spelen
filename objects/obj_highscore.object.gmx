@@ -26,6 +26,31 @@
           <argument>
             <kind>1</kind>
             <string>global.score = 0;
+
+
+
+/* dit word later gebruikt bij de highscore
+if (hp &lt;= 0) {
+    global.dead = true;
+    instance_change(obj_explosion_ship, true);
+    name = get_string("Please enter your name to set a high-score :","");
+
+//We pop a box which the player have to enter
+//His name and it will be stored in the
+//variable name
+//The first parametre is the message
+//and the second is the default name
+if (name !=""){highscore_add(name,global.score)};
+//This funtion serve to add the name and the score to the high score table or data base
+//Parametre 1 : is the name
+//Parametre 2: is the current score
+
+room_goto_previous()
+//This will go to previous room in our case is the main menu
+
+}
+*/
+
 </string>
           </argument>
         </arguments>
