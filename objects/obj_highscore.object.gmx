@@ -98,9 +98,9 @@ room_goto_previous()
             <kind>1</kind>
             <string>
 draw_set_color(c_white);
-draw_set_font(fnt_gameover);
-draw_text(10, 20, "High-scores:");
-draw_highscore(10,50,400,350);
+draw_set_font(fnt_highscore);
+draw_text(10, 80, "High-scores:");
+draw_highscore(10,130,400,350);
 //Parametres are for the position
 
 draw_text(10, 400, "Press C to clear high score");
