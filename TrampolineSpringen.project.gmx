@@ -60,12 +60,14 @@
     <font>fonts\fnt_timerfont</font>
     <font>fonts\fnt_truclijst</font>
     <font>fonts\fnt_credits</font>
+    <font>fonts\fnt_highscore</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_restart_button</object>
     <object>objects\obj_credits</object>
     <object>objects\obj_exit_button</object>
     <object>objects\obj_hordeloop_button</object>
+    <object>objects\obj_highscore</object>
     <object>objects\obj_credits_button</object>
     <object>objects\obj_exit_naar_beginscherm</object>
     <objects name="trampoline_game_objects">
@@ -99,7 +101,6 @@
     <objects name="hordelopen_game_objects">
       <object>objects\obj_hordelopen_player</object>
     </objects>
-    <object>objects\object28</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>
