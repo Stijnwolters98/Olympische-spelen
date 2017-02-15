@@ -121,11 +121,11 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_eind_trampoline_game_score</room>
     <room>rooms\rm_begin_scherm</room>
     <room>rooms\rm_credits</room>
     <rooms name="Trampoline Rooms">
       <room>rooms\rm_trampoline_game</room>
+      <room>rooms\rm_eind_trampoline_game_score</room>
     </rooms>
     <rooms name="Hordelopen Rooms">
       <room>rooms\rm_eind_hordelopen_game_score</room>
