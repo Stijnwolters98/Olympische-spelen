@@ -3,12 +3,12 @@
   <type>0</type>
   <xorig>0</xorig>
   <yorigin>0</yorigin>
-  <colkind>0</colkind>
+  <colkind>1</colkind>
   <coltolerance>0</coltolerance>
-  <sepmasks>-1</sepmasks>
+  <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>52</bbox_left>
-  <bbox_right>95</bbox_right>
+  <bbox_right>96</bbox_right>
   <bbox_top>37</bbox_top>
   <bbox_bottom>140</bbox_bottom>
   <HTile>0</HTile>
@@ -20,6 +20,7 @@
   <width>150</width>
   <height>150</height>
   <frames>
-    <frame index="0">images\spr_staanhorde_0.png</frame>
+    <frame index="0">images\spr_rennen_0.png</frame>
+    <frame index="1">images\spr_rennen_1.png</frame>
   </frames>
 </sprite>
