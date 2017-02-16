@@ -63,8 +63,10 @@ jumpKey = keyboard_check_pressed(vk_space);
 //Horizontale beweging
 if (rightKey and global.gestart == true) {
     hsp = movespeed * rightKey;
+    sprite_index = spr_rennen;
 } else {
     hsp = 0;
+    sprite_index = spr_staanhorde;
 }
 
 //Zwaartekracht
@@ -109,6 +111,30 @@ if (place_meeting(x+hsp, y, obj_muur))
     hsp = 0;
 }
 x += hsp;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_hordelopen_horde">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>instance_create(obj_hordelopen_player.x, obj_hordelopen_player.y, obj_hordelopen_player_vallen);
+instance_destroy();
 </string>
           </argument>
         </arguments>

@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Variabelen
 global.gestart = false;
-myTime=10.0
+myTime=5
 showTime=myTime
 </string>
           </argument>
@@ -70,7 +70,7 @@ showTime=ceil(myTime)
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
