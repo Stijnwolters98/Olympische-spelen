@@ -8,10 +8,11 @@
     <sound>sound\snd_olympic_intro_song</sound>
     <sound>sound\snd_backgroundmusic_trampoline</sound>
     <sound>sound\snd_jump_geluid</sound>
-    <sound>sound\snd_applous</sound>
+    <sound>sound\snd_applaus</sound>
     <sound>sound\snd_goed_gedaan_pling</sound>
     <sound>sound\snd_jump_trampoline_game</sound>
     <sound>sound\snd_startschot_hordeloop</sound>
+    <sound>sound\snd_readysetgo_mariokart_</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_olympic_logo</sprite>
