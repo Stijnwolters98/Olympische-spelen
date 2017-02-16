@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="8" enumb="0">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,20 +25,41 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fnt_truclijst)
-draw_set_color(c_blue)
-draw_text(150,200,"Salto: Q, W, E, R")
+            <string>alarm[0]=500;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+    name = get_string("Please enter your name to set a high-score :","");
+
+if (name !=""){highscore_add(name,global.score)};
 
 
-draw_set_font(fnt_truclijst)
-draw_set_color(c_blue)
-draw_text(150,250,"Backflip: A, S, D, F")
+room_goto_previous()
 
 
 
-draw_set_font(fnt_truclijst)
-draw_set_color(c_black)
-draw_text(150,300,"Pirouette: Z, X, C, V")
+
+
 </string>
           </argument>
         </arguments>
