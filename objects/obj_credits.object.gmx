@@ -27,16 +27,15 @@
             <kind>1</kind>
             <string>{
 credits = "####Deze game is gemaakt door:##
-Faraaz#
+Faraaz youssifo#
 Sam Groot#
-Robbie#
+Robbie Post#
 Eric van der Woude#
 Florence Springer#
 Lisa Hu#
 Stijn Wolters#
 Martin Meyer### "; 
-credits += "De muziek is overgenomen van het spel: Mario en Sonic the olympic games#";
-credits += "De players zijn zelf gemaakt#";
+
 credits += "#";
 
 credits += "Wij hopen dat je van de game hebt genoten!";
