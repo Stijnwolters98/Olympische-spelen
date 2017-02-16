@@ -118,6 +118,7 @@
       <object>objects\obj_score2</object>
       <object>objects\obj_score3</object>
       <object>objects\obj_score4</object>
+      <object>objects\obj_eindscore_toevoegen</object>
     </objects>
     <objects name="hordelopen_game_objects">
       <object>objects\obj_hordelopen_player</object>
