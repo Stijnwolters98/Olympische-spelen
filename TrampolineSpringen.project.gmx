@@ -133,6 +133,7 @@
       <object>objects\obj_hordelopen_hordecollision</object>
       <object>objects\obj_hordelopen_score</object>
       <object>objects\obj_hordelopen_player_vallen</object>
+      <object>objects\obj_backgroundmusic_hordeloop</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -143,8 +144,8 @@
       <room>rooms\rm_eind_trampoline_game_score</room>
     </rooms>
     <rooms name="Hordelopen Rooms">
-      <room>rooms\rm_eind_hordelopen_game_score</room>
       <room>rooms\rm_hordelopen_game</room>
+      <room>rooms\rm_eind_hordelopen_game_score</room>
     </rooms>
   </rooms>
   <help>

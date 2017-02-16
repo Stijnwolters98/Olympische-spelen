@@ -1055,6 +1055,7 @@
     <instance objName="obj_hordelopen_hordecollision" x="704" y="0" name="inst_AC0E206C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hordelopen_hordecollision" x="1216" y="0" name="inst_1A4C0AD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hordelopen_hordecollision" x="1408" y="0" name="inst_202D3170" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_backgroundmusic_hordeloop" x="144" y="16" name="inst_0111333E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
