@@ -82,6 +82,7 @@
     <font>fonts\fnt_credits</font>
     <font>fonts\fnt_highscore</font>
     <font>fonts\fnt_score1</font>
+    <font>fonts\fnt_Timerstartschot</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_muur</object>
@@ -125,6 +126,7 @@
       <object>objects\obj_hordelopen_button2</object>
       <object>objects\obj_hordelopen_button</object>
       <object>objects\obj_hordelopen_horde</object>
+      <object>objects\ob_timer_startschot</object>
     </objects>
   </objects>
   <rooms name="rooms">
