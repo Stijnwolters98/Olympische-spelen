@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>myTime=10.0
+            <string>///Variabelen
+global.gestart = false;
+myTime=10.0
 showTime=myTime
 </string>
           </argument>
@@ -57,7 +59,7 @@ myTime=myTime-delta_time/1000000
  
  instance_destroy();
  audio_play_sound (snd_startschot_hordeloop, 10, false);
- 
+ global.gestart = true;
  }
  
 

@@ -29,8 +29,8 @@
 grav = 0.4;
 hsp = 0;
 vsp = 0;
-jumpspeed = 10;
-movespeed = 2.5;
+jumpspeed = 12;
+movespeed = 5;
 
 </string>
           </argument>
@@ -61,7 +61,11 @@ rightKey = keyboard_check(vk_right);
 jumpKey = keyboard_check_pressed(vk_space);
 
 //Horizontale beweging
-hsp = rightKey * movespeed;
+if (rightKey and global.gestart == true) {
+    hsp = movespeed * rightKey;
+} else {
+    hsp = 0;
+}
 
 //Zwaartekracht
 if (vsp &lt;10)
@@ -70,14 +74,14 @@ if (vsp &lt;10)
 } 
 
 //Springen
-if (place_meeting(x, y+1, obj_muur)) 
+if (place_meeting(x, y+1, obj_muur) and global.gestart) 
 {
-    vsp = jumpKey * -jumpspeed; //reguliere sprong
+    vsp = jumpKey * -jumpspeed;
 }
 
 //spring geluid
 
-if (jumpKey == true and place_meeting(x, y+1, obj_muur) == true) {
+if (jumpKey == true and place_meeting(x, y+1, obj_muur) == true and global.gestart) {
  audio_play_sound(snd_jump_trampoline_game, 1, false);
 
 }
