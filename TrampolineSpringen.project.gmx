@@ -124,6 +124,7 @@
       <object>objects\obj_hordelopen_player</object>
       <object>objects\obj_hordelopen_button2</object>
       <object>objects\obj_hordelopen_button</object>
+      <object>objects\obj_hordelopen_horde</object>
     </objects>
   </objects>
   <rooms name="rooms">

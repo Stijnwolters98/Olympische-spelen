@@ -31,6 +31,7 @@ hsp = 0;
 vsp = 0;
 jumpspeed = 10;
 movespeed = 2.5;
+
 </string>
           </argument>
         </arguments>
@@ -57,12 +58,11 @@ movespeed = 2.5;
 
 //Bewegings input
 rightKey = keyboard_check(vk_right);
-leftKey = -keyboard_check(vk_left);
+//leftKey = -keyboard_check(vk_left);
 jumpKey = keyboard_check_pressed(vk_space);
 
 //Horizontale beweging
-move = rightKey + leftKey
-hsp = move * movespeed;
+hsp = rightKey * movespeed;
 
 /* Is dit wel nodig bij het hordelopen?
 //Halveren hsp
