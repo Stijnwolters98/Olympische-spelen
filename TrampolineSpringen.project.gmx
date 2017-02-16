@@ -8,10 +8,12 @@
     <sound>sound\snd_olympic_intro_song</sound>
     <sound>sound\snd_backgroundmusic_trampoline</sound>
     <sound>sound\snd_jump_geluid</sound>
-    <sound>sound\snd_applous</sound>
+    <sound>sound\snd_applaus</sound>
     <sound>sound\snd_goed_gedaan_pling</sound>
     <sound>sound\snd_jump_trampoline_game</sound>
     <sound>sound\snd_startschot_hordeloop</sound>
+    <sound>sound\snd_readysetgo_mariokart_</sound>
+    <sound>sound\snd_backgroundmusic_hordelopen</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_olympic_logo</sprite>
@@ -19,7 +21,6 @@
     <sprite>sprites\spr_restart_button</sprite>
     <sprite>sprites\spr_credits_button</sprite>
     <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_hordeloop_button</sprite>
     <sprites name="horde_game_sprites">
       <sprite>sprites\spr_staanhorde</sprite>
       <sprite>sprites\spr_horde</sprite>
@@ -62,6 +63,9 @@
       <sprite>sprites\spr_stickman_lopenR</sprite>
       <sprite>sprites\spr_stickman_lopenL</sprite>
     </sprites>
+    <sprite>sprites\spr_hordelopen_button2</sprite>
+    <sprite>sprites\spr_hordeloop_button</sprite>
+    <sprite>sprites\spr_hordelopen_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
@@ -118,6 +122,8 @@
     </objects>
     <objects name="hordelopen_game_objects">
       <object>objects\obj_hordelopen_player</object>
+      <object>objects\obj_hordelopen_button2</object>
+      <object>objects\obj_hordelopen_button</object>
     </objects>
   </objects>
   <rooms name="rooms">
