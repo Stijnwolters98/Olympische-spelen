@@ -58,18 +58,10 @@ movespeed = 2.5;
 
 //Bewegings input
 rightKey = keyboard_check(vk_right);
-//leftKey = -keyboard_check(vk_left);
 jumpKey = keyboard_check_pressed(vk_space);
 
 //Horizontale beweging
 hsp = rightKey * movespeed;
-
-/* Is dit wel nodig bij het hordelopen?
-//Halveren hsp
-if (place_meeting(x, y+1, obj_muur) == true) {
- hsp = 2*move*movespeed;
-}
-*/
 
 //Zwaartekracht
 if (vsp &lt;10)

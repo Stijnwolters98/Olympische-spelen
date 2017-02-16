@@ -84,6 +84,7 @@
     <font>fonts\fnt_score1</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_muur</object>
     <object>objects\obj_restart_button</object>
     <object>objects\obj_credits</object>
     <object>objects\obj_exit_button</object>
@@ -95,7 +96,6 @@
     <objects name="trampoline_game_objects">
       <object>objects\obj_stickman_springen</object>
       <object>objects\obj_player</object>
-      <object>objects\obj_muur</object>
       <object>objects\obj_trampoline</object>
       <object>objects\obj_box</object>
       <object>objects\obj_stickman_lopenR</object>
