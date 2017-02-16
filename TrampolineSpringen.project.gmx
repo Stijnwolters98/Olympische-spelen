@@ -26,6 +26,7 @@
       <sprite>sprites\spr_horde</sprite>
       <sprite>sprites\spr_exit_hordelopen</sprite>
       <sprite>sprites\spr_rennen</sprite>
+      <sprite>sprites\spr_hordecollision</sprite>
     </sprites>
     <sprites name="trampoline_game_sprites">
       <sprite>sprites\spr_muur</sprite>
@@ -127,6 +128,8 @@
       <object>objects\obj_hordelopen_button</object>
       <object>objects\obj_hordelopen_horde</object>
       <object>objects\ob_timer_startschot</object>
+      <object>objects\obj_hordelopen_hordecollision</object>
+      <object>objects\obj_hordelopen_score</object>
     </objects>
   </objects>
   <rooms name="rooms">
