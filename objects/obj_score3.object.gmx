@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>score3 = round((global.score/900)*4+1);
+            <string>score3 = round((global.score/900)*5);
+if (score3==0) {score3=1;}
 </string>
           </argument>
         </arguments>

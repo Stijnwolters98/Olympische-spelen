@@ -104,7 +104,6 @@
       <object>objects\obj_stickman_pirouette</object>
       <object>objects\obj_trampoline_button2</object>
       <object>objects\obj_trampoline_button</object>
-      <object>objects\obj_score_eindscherm</object>
       <object>objects\obj_room_reset</object>
       <object>objects\obj_total_score</object>
       <object>objects\obj_game_finished</object>
