@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>score1 = 1;
+            <string>score1 = 2;
 </string>
           </argument>
         </arguments>
@@ -88,12 +88,23 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(score1==1){sprite_index = spr_scoreborden1_einde1};
-if(score1==2){sprite_index = spr_scoreborden1_einde2};
-if(score1==3){sprite_index = spr_scoreborden1_einde3};
-if(score1==4){sprite_index = spr_scoreborden1_einde4};
-if(score1==5){sprite_index = spr_scoreborden1_einde5};
-
+            <string>switch (score1) {
+    case 1:
+        sprite_index = spr_scoreborden1_einde1;
+        break;
+    case 2:
+        sprite_index = spr_scoreborden1_einde2;
+        break;
+    case 3:
+        sprite_index = spr_scoreborden1_einde3;
+        break;
+    case 4:
+        sprite_index = spr_scoreborden1_einde4;
+        break;
+    case 5:
+        sprite_index = spr_scoreborden1_einde5;
+        break;
+}
 </string>
           </argument>
         </arguments>

@@ -40,20 +40,20 @@
       <sprite>sprites\spr_scoreborden2</sprite>
       <sprite>sprites\spr_scoreborden3</sprite>
       <sprite>sprites\spr_scoreborden1_einde1</sprite>
-      <sprite>sprites\spr_scorreborde1_einde2</sprite>
-      <sprite>sprites\spr_scorreborde1_einde3</sprite>
-      <sprite>sprites\spr_scorreborde1_einde4</sprite>
-      <sprite>sprites\spr_scorreborde1_einde5</sprite>
-      <sprite>sprites\spr_scorreborde2_einde1</sprite>
-      <sprite>sprites\spr_scorreborde2_einde2</sprite>
-      <sprite>sprites\spr_scorreborde2_einde3</sprite>
-      <sprite>sprites\spr_scorreborde2_einde4</sprite>
+      <sprite>sprites\spr_scoreborden1_einde2</sprite>
+      <sprite>sprites\spr_scoreborden1_einde3</sprite>
+      <sprite>sprites\spr_scoreborden1_einde4</sprite>
+      <sprite>sprites\spr_scoreborden1_einde5</sprite>
+      <sprite>sprites\spr_scoreborden2_einde1</sprite>
+      <sprite>sprites\spr_scoreborden2_einde2</sprite>
+      <sprite>sprites\spr_scoreborden2_einde3</sprite>
+      <sprite>sprites\spr_scoreborden2_einde4</sprite>
       <sprite>sprites\spr_scoreborden2_einde5</sprite>
       <sprite>sprites\spr_scoreborden3_einde1</sprite>
-      <sprite>sprites\spr_scorreborde3_einde2</sprite>
-      <sprite>sprites\spr_scorreborde3_einde3</sprite>
-      <sprite>sprites\spr_scorreborde3_einde4</sprite>
-      <sprite>sprites\spr_scorreborde3_einde5</sprite>
+      <sprite>sprites\spr_scoreborden3_einde2</sprite>
+      <sprite>sprites\spr_scoreborden3_einde3</sprite>
+      <sprite>sprites\spr_scoreborden3_einde4</sprite>
+      <sprite>sprites\spr_scoreborden3_einde5</sprite>
       <sprite>sprites\spr_jury_ingezoomd</sprite>
       <sprite>sprites\spr_stickman_salto</sprite>
       <sprite>sprites\spr_trampoline_button</sprite>
@@ -121,11 +121,11 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_eind_trampoline_game_score</room>
     <room>rooms\rm_begin_scherm</room>
     <room>rooms\rm_credits</room>
     <rooms name="Trampoline Rooms">
       <room>rooms\rm_trampoline_game</room>
-      <room>rooms\rm_eind_trampoline_game_score</room>
     </rooms>
     <rooms name="Hordelopen Rooms">
       <room>rooms\rm_eind_hordelopen_game_score</room>
