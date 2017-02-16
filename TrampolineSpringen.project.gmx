@@ -20,7 +20,6 @@
     <sprite>sprites\spr_restart_button</sprite>
     <sprite>sprites\spr_credits_button</sprite>
     <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_hordeloop_button</sprite>
     <sprites name="horde_game_sprites">
       <sprite>sprites\spr_staanhorde</sprite>
       <sprite>sprites\spr_horde</sprite>
@@ -63,6 +62,9 @@
       <sprite>sprites\spr_stickman_lopenR</sprite>
       <sprite>sprites\spr_stickman_lopenL</sprite>
     </sprites>
+    <sprite>sprites\spr_hordelopen_button2</sprite>
+    <sprite>sprites\spr_hordeloop_button</sprite>
+    <sprite>sprites\spr_hordelopen_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
@@ -119,6 +121,8 @@
     </objects>
     <objects name="hordelopen_game_objects">
       <object>objects\obj_hordelopen_player</object>
+      <object>objects\obj_hordelopen_button2</object>
+      <object>objects\obj_hordelopen_button</object>
     </objects>
   </objects>
   <rooms name="rooms">
