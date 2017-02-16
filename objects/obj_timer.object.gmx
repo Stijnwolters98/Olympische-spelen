@@ -55,7 +55,7 @@ myTime=myTime-delta_time/1000000
  }
  else {
 instance_create(room_width/2, room_height/2, obj_game_finished);
-audio_play_sound(snd_applous, 1, false);
+audio_play_sound(snd_applaus, 1, false);
 with (obj_player)
    {
     instance_destroy();
