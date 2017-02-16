@@ -27,18 +27,18 @@
             <kind>1</kind>
             <string>draw_set_font(fnt_truclijst)
 draw_set_color(c_blue)
-draw_text(150,200,"Salto: Q, W, E, R")
+draw_text(120,400,"Salto: Q, W, E, R")
 
 
 draw_set_font(fnt_truclijst)
 draw_set_color(c_blue)
-draw_text(150,250,"Backflip: A, S, D, F")
+draw_text(120,450,"Backflip: A, S, D, F")
 
 
 
 draw_set_font(fnt_truclijst)
 draw_set_color(c_black)
-draw_text(150,300,"Pirouette: Z, X, C, V")
+draw_text(120,500,"Pirouette: Z, X, C, V")
 </string>
           </argument>
         </arguments>

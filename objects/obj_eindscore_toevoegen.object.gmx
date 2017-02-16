@@ -54,7 +54,7 @@
 if (name !=""){highscore_add(name,global.score)};
 
 
-room_goto_previous()
+ room_goto(rm_begin_scherm);
 
 
 
