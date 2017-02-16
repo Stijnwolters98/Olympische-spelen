@@ -99,11 +99,11 @@ room_goto_previous()
             <string>
 draw_set_color(c_white);
 draw_set_font(fnt_highscore);
-draw_text(10, 80, "High-scores:");
-draw_highscore(10,130,400,350);
+draw_text(900, 50, "High-scores:");
+draw_highscore(900,100,1300,350);
 //Parametres are for the position
 
-draw_text(10, 400, "Press C to clear high score");
+draw_text(900, 400, "Press C to clear high score");
 </string>
           </argument>
         </arguments>
