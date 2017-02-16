@@ -24,6 +24,7 @@
       <sprite>sprites\spr_staanhorde</sprite>
       <sprite>sprites\spr_horde</sprite>
       <sprite>sprites\spr_exit_hordelopen</sprite>
+      <sprite>sprites\spr_horde2</sprite>
       <sprite>sprites\spr_rennen</sprite>
     </sprites>
     <sprites name="trampoline_game_sprites">
@@ -118,6 +119,7 @@
     </objects>
     <objects name="hordelopen_game_objects">
       <object>objects\obj_hordelopen_player</object>
+      <object>objects\obj_horde</object>
     </objects>
   </objects>
   <rooms name="rooms">
