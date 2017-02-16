@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>myTime=60.0
+            <string>myTime=10.0
 showTime=myTime
 </string>
           </argument>
@@ -83,7 +83,7 @@ showTime=ceil(myTime)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fontCool)
+            <string>draw_set_font(fnt_Timerstartschot)
 draw_set_color(c_black)
 draw_text(x,y,"Time Left: " + string(showTime) )
 </string>
