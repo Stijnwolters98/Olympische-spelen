@@ -20,6 +20,6 @@
   <width>400</width>
   <height>400</height>
   <frames>
-    <frame index="0">images\spr_horde2_0.png</frame>
+    <frame index="0">images\spr_horde2__0.png</frame>
   </frames>
 </sprite>

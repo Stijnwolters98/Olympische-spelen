@@ -24,7 +24,7 @@
       <sprite>sprites\spr_staanhorde</sprite>
       <sprite>sprites\spr_horde</sprite>
       <sprite>sprites\spr_exit_hordelopen</sprite>
-      <sprite>sprites\spr_horde2</sprite>
+      <sprite>sprites\spr_horde2_</sprite>
       <sprite>sprites\spr_rennen</sprite>
     </sprites>
     <sprites name="trampoline_game_sprites">
