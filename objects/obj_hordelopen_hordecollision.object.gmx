@@ -75,7 +75,7 @@ hordeCollision = false;
             <kind>1</kind>
             <string>///Score omhoog
 if (hordeCollision == false) {
-    global.score +=1;
+    global.score +=10;
     hordeCollision = true;
     alarm[0] = 1000;
 }
