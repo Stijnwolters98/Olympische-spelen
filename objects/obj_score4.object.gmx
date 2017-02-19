@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>score4 = round((global.score/900)*2+3);
-if (score4 &gt; 5) {score4 = 5;}
+            <string>score4 = round((global.score/700)*9+1);
+if (score4 &gt; 10) {score4 = 10;}
 </string>
           </argument>
         </arguments>
@@ -88,6 +88,21 @@ if (score4 &gt; 5) {score4 = 5;}
         break;
     case 5:
         sprite_index = spr_scoreborden3_einde5;
+        break;
+            case 6:
+        sprite_index = spr_scoreborden3_einde6;
+        break;
+    case 7:
+        sprite_index = spr_scoreborden3_einde7;
+        break;
+    case 8:
+        sprite_index = spr_scoreborden3_einde8;
+        break;
+    case 9:
+        sprite_index = spr_scoreborden3_einde9;
+        break;
+    case 10:
+        sprite_index = spr_scoreborden3_einde10;
         break;
 }
 </string>

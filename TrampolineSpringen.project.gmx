@@ -48,16 +48,31 @@
       <sprite>sprites\spr_scoreborden1_einde3</sprite>
       <sprite>sprites\spr_scoreborden1_einde4</sprite>
       <sprite>sprites\spr_scoreborden1_einde5</sprite>
+      <sprite>sprites\spr_scoreborden1_einde6</sprite>
+      <sprite>sprites\spr_scoreborden1_einde7</sprite>
+      <sprite>sprites\spr_scoreborden1_einde8</sprite>
+      <sprite>sprites\spr_scoreborden1_einde9</sprite>
+      <sprite>sprites\spr_scoreborden1_einde10</sprite>
       <sprite>sprites\spr_scoreborden2_einde1</sprite>
       <sprite>sprites\spr_scoreborden2_einde2</sprite>
       <sprite>sprites\spr_scoreborden2_einde3</sprite>
       <sprite>sprites\spr_scoreborden2_einde4</sprite>
       <sprite>sprites\spr_scoreborden2_einde5</sprite>
+      <sprite>sprites\spr_scoreborden2_einde6</sprite>
+      <sprite>sprites\spr_scoreborden2_einde7</sprite>
+      <sprite>sprites\spr_scoreborden2_einde8</sprite>
+      <sprite>sprites\spr_scoreborden2_einde9</sprite>
+      <sprite>sprites\spr_scoreborden2_einde10</sprite>
       <sprite>sprites\spr_scoreborden3_einde1</sprite>
       <sprite>sprites\spr_scoreborden3_einde2</sprite>
       <sprite>sprites\spr_scoreborden3_einde3</sprite>
       <sprite>sprites\spr_scoreborden3_einde4</sprite>
       <sprite>sprites\spr_scoreborden3_einde5</sprite>
+      <sprite>sprites\spr_scoreborden3_einde6</sprite>
+      <sprite>sprites\spr_scoreborden3_einde7</sprite>
+      <sprite>sprites\spr_scoreborden3_einde8</sprite>
+      <sprite>sprites\spr_scoreborden3_einde9</sprite>
+      <sprite>sprites\spr_scoreborden3_einde10</sprite>
       <sprite>sprites\spr_jury_ingezoomd</sprite>
       <sprite>sprites\spr_stickman_salto</sprite>
       <sprite>sprites\spr_trampoline_button</sprite>
