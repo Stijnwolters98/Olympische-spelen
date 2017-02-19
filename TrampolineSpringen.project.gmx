@@ -29,6 +29,7 @@
       <sprite>sprites\spr_valhorde</sprite>
       <sprite>sprites\spr_doodhorde</sprite>
       <sprite>sprites\spr_hordecollision</sprite>
+      <sprite>sprites\spr_finishline</sprite>
     </sprites>
     <sprites name="trampoline_game_sprites">
       <sprite>sprites\spr_muur</sprite>
@@ -149,6 +150,7 @@
       <object>objects\obj_hordelopen_score</object>
       <object>objects\obj_hordelopen_player_vallen</object>
       <object>objects\obj_backgroundmusic_hordeloop</object>
+      <object>objects\object41</object>
     </objects>
   </objects>
   <rooms name="rooms">
