@@ -52,7 +52,7 @@ showTime=myTime
           <argument>
             <kind>1</kind>
             <string>
-if myTime &gt;= 0 {
+if myTime &gt;= 0.5 {
 myTime=myTime-delta_time/1000000
  }
  else {
