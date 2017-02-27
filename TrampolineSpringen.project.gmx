@@ -29,6 +29,7 @@
       <sprite>sprites\spr_valhorde</sprite>
       <sprite>sprites\spr_doodhorde</sprite>
       <sprite>sprites\spr_hordecollision</sprite>
+      <sprite>sprites\spr_horde2</sprite>
       <sprite>sprites\spr_finishline</sprite>
     </sprites>
     <sprites name="trampoline_game_sprites">
