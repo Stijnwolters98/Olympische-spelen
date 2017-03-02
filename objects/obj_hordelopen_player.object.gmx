@@ -90,7 +90,7 @@ if (jumpKey == true and place_meeting(x, y+1, obj_muur) == true and global.gesta
 
 //applaus geluid
 
-if (jumpKey == true and place_meeting(x, y+1, obj_finishline) == true) {
+if (jumpKey == true and place_meeting(x, y+1, obj_finishline) == true and global.gestart) {
  audio_play_sound(snd_applaus, 1, false);
 
 }
