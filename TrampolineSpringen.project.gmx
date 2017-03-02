@@ -153,6 +153,7 @@
       <object>objects\obj_backgroundmusic_hordeloop</object>
       <object>objects\obj_finishline</object>
     </objects>
+    <object>objects\obj_stopwatch_hordelopen</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>
