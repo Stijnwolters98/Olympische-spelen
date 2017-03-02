@@ -51,7 +51,6 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_exit_naar_beginscherm" x="64" y="64" name="inst_C27BE5CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_muur" x="0" y="720" name="inst_6D1A2233" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_muur" x="0" y="704" name="inst_5C05B530" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_muur" x="0" y="688" name="inst_BCA6427F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1058,6 +1057,7 @@
     <instance objName="obj_backgroundmusic_hordeloop" x="144" y="16" name="inst_0111333E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_finishline" x="14256" y="176" name="inst_81E2C489" locked="0" code="" scaleX="1.41176474094391" scaleY="2.14046812057495" colour="4294967295" rotation="0"/>
     <instance objName="obj_muur" x="704" y="608" name="inst_DE46E39E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hordelopen_exitNaarBeginscherm" x="64" y="80" name="inst_5857758C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

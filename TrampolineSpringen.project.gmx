@@ -152,6 +152,7 @@
       <object>objects\obj_hordelopen_player_vallen</object>
       <object>objects\obj_backgroundmusic_hordeloop</object>
       <object>objects\obj_finishline</object>
+      <object>objects\obj_hordelopen_exitNaarBeginscherm</object>
     </objects>
     <object>objects\obj_stopwatch_hordelopen</object>
   </objects>
