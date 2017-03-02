@@ -86,7 +86,6 @@
     <sprite>sprites\spr_hordelopen_button2</sprite>
     <sprite>sprites\spr_hordeloop_button</sprite>
     <sprite>sprites\spr_hordelopen_button</sprite>
-    <sprite>sprites\test</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
