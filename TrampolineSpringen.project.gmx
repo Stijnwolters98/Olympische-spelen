@@ -86,6 +86,7 @@
     <sprite>sprites\spr_hordelopen_button2</sprite>
     <sprite>sprites\spr_hordeloop_button</sprite>
     <sprite>sprites\spr_hordelopen_button</sprite>
+    <sprite>sprites\test</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
@@ -151,7 +152,7 @@
       <object>objects\obj_hordelopen_score</object>
       <object>objects\obj_hordelopen_player_vallen</object>
       <object>objects\obj_backgroundmusic_hordeloop</object>
-      <object>objects\object41</object>
+      <object>objects\obj_finishline</object>
     </objects>
   </objects>
   <rooms name="rooms">
