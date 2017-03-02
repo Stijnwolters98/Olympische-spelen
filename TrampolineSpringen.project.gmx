@@ -12,7 +12,7 @@
     <sound>sound\snd_goed_gedaan_pling</sound>
     <sound>sound\snd_jump_trampoline_game</sound>
     <sound>sound\snd_startschot_hordeloop</sound>
-    <sound>sound\snd_readysetgo_mariokart_</sound>
+    <sound>sound\snd_readysetgo_mariokart</sound>
     <sound>sound\snd_backgroundmusic_hordelopen</sound>
   </sounds>
   <sprites name="sprites">
@@ -86,6 +86,7 @@
     <sprite>sprites\spr_hordelopen_button2</sprite>
     <sprite>sprites\spr_hordeloop_button</sprite>
     <sprite>sprites\spr_hordelopen_button</sprite>
+    <sprite>sprites\test</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
@@ -146,7 +147,7 @@
       <object>objects\obj_hordelopen_button2</object>
       <object>objects\obj_hordelopen_button</object>
       <object>objects\obj_hordelopen_horde</object>
-      <object>objects\ob_timer_startschot</object>
+      <object>objects\obj_timer_startschot</object>
       <object>objects\obj_hordelopen_hordecollision</object>
       <object>objects\obj_hordelopen_score</object>
       <object>objects\obj_hordelopen_player_vallen</object>
