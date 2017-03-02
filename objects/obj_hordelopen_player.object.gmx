@@ -88,7 +88,12 @@ if (jumpKey == true and place_meeting(x, y+1, obj_muur) == true and global.gesta
 
 }
 
+//applaus geluid
 
+if (jumpKey == true and place_meeting(x, y+1, obj_finishline) == true) {
+ audio_play_sound(snd_applaus, 1, false);
+
+}
 
 //Verticale collision
 if (place_meeting(x, y+vsp, obj_muur))
