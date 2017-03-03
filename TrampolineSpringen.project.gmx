@@ -87,6 +87,8 @@
     <sprite>sprites\spr_hordeloop_button</sprite>
     <sprite>sprites\spr_hordelopen_button</sprite>
     <sprite>sprites\spr_instruction_button</sprite>
+    <sprite>sprites\spr_instr_horde1</sprite>
+    <sprite>sprites\spr_instr_horde2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
@@ -115,6 +117,21 @@
     <object>objects\obj_highscore</object>
     <object>objects\obj_credits_button</object>
     <object>objects\obj_exit_naar_beginscherm</object>
+    <object>objects\obj_stopwatch_hordelopen</object>
+    <object>objects\obj_instruction_button</object>
+    <objects name="hordelopen_game_objects">
+      <object>objects\obj_hordelopen_player</object>
+      <object>objects\obj_hordelopen_button2</object>
+      <object>objects\obj_hordelopen_button</object>
+      <object>objects\obj_hordelopen_horde</object>
+      <object>objects\obj_timer_startschot</object>
+      <object>objects\obj_hordelopen_hordecollision</object>
+      <object>objects\obj_hordelopen_score</object>
+      <object>objects\obj_hordelopen_player_vallen</object>
+      <object>objects\obj_backgroundmusic_hordeloop</object>
+      <object>objects\obj_finishline</object>
+      <object>objects\obj_hordelopen_exitNaarBeginscherm</object>
+    </objects>
     <objects name="trampoline_game_objects">
       <object>objects\obj_stickman_springen</object>
       <object>objects\obj_player</object>
@@ -142,25 +159,13 @@
       <object>objects\obj_score3</object>
       <object>objects\obj_score4</object>
     </objects>
-    <objects name="hordelopen_game_objects">
-      <object>objects\obj_hordelopen_player</object>
-      <object>objects\obj_hordelopen_button2</object>
-      <object>objects\obj_hordelopen_button</object>
-      <object>objects\obj_hordelopen_horde</object>
-      <object>objects\obj_timer_startschot</object>
-      <object>objects\obj_hordelopen_hordecollision</object>
-      <object>objects\obj_hordelopen_score</object>
-      <object>objects\obj_hordelopen_player_vallen</object>
-      <object>objects\obj_backgroundmusic_hordeloop</object>
-      <object>objects\obj_finishline</object>
-      <object>objects\obj_hordelopen_exitNaarBeginscherm</object>
-    </objects>
-    <object>objects\obj_stopwatch_hordelopen</object>
-    <object>objects\obj_instruction_button</object>
+    <object>objects\obj_instr_horde1</object>
+    <object>objects\obj_instr_horde2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>
     <room>rooms\rm_credits</room>
+    <room>rooms\rm_instructions</room>
     <rooms name="Trampoline Rooms">
       <room>rooms\rm_trampoline_game</room>
       <room>rooms\rm_eind_trampoline_game_score</room>
@@ -169,7 +174,6 @@
       <room>rooms\rm_hordelopen_game</room>
       <room>rooms\rm_eind_hordelopen_game_score</room>
     </rooms>
-    <room>rooms\rm_instructions</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
