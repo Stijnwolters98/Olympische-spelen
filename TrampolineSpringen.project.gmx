@@ -86,6 +86,7 @@
     <sprite>sprites\spr_hordelopen_button2</sprite>
     <sprite>sprites\spr_hordeloop_button</sprite>
     <sprite>sprites\spr_hordelopen_button</sprite>
+    <sprite>sprites\spr_instruction_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
@@ -155,6 +156,7 @@
       <object>objects\obj_hordelopen_exitNaarBeginscherm</object>
     </objects>
     <object>objects\obj_stopwatch_hordelopen</object>
+    <object>objects\obj_instruction_button</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>
@@ -167,6 +169,7 @@
       <room>rooms\rm_hordelopen_game</room>
       <room>rooms\rm_eind_hordelopen_game_score</room>
     </rooms>
+    <room>rooms\rm_instructions</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
