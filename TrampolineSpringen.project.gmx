@@ -116,7 +116,6 @@
     <object>objects\obj_highscore</object>
     <object>objects\obj_credits_button</object>
     <object>objects\obj_exit_naar_beginscherm</object>
-    <object>objects\obj_stopwatch_hordelopen</object>
     <object>objects\obj_instruction_button</object>
     <objects name="hordelopen_game_objects">
       <object>objects\obj_hordelopen_player</object>
@@ -132,6 +131,7 @@
       <object>objects\obj_finishline</object>
       <object>objects\obj_hordelopen_exitNaarBeginscherm</object>
       <object>objects\obj_eindscore_toevoegen_hordelopen</object>
+      <object>objects\obj_stopwatch</object>
     </objects>
     <objects name="trampoline_game_objects">
       <object>objects\obj_stickman_springen</object>
