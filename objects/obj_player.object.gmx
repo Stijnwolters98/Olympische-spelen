@@ -143,16 +143,15 @@ x += hsp;
 
 
 //naar rechts en links lopen animatie
-if (place_meeting(x, y+1, obj_muur)and rightKey == true) {
-    instance_destroy();
-    instance_create(x,y, obj_stickman_lopenR);
-
+if (place_meeting(x, y+1, obj_muur) and rightKey == 1 and leftKey == 0) {
+    sprite_index = spr_stickman_lopenR;
 }
 
-if (place_meeting(x, y+1, obj_muur)and leftKey == true) {
-    instance_destroy();
-    instance_create(x,y, obj_stickman_lopenL);
-
+if (place_meeting(x, y+1, obj_muur) and leftKey == -1 and rightKey == 0) {
+    sprite_index = spr_stickman_lopenL;
+}
+if (leftKey == 0 and rightKey == 0){
+    sprite_index = spr_stickman_staan;
 }
 
 
