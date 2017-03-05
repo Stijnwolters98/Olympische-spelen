@@ -49,7 +49,7 @@
           <argument>
             <kind>1</kind>
             <string>
-    name = get_string("Please enter your name on the dod line to set a high-score:","'trampoline' ....");
+    name = get_string("Please enter your name after 'trampoline' to set a high-score:","'trampoline' ....");
 
 if (name !=""){highscore_add(name,global.score)};
 

@@ -56,7 +56,7 @@
     <instance objName="obj_score4" x="967" y="50" name="inst_AFD5084A" locked="0" code="" scaleX="4.57142877578735" scaleY="3.04761910438538" colour="4294967295" rotation="0"/>
     <instance objName="obj_score3" x="698" y="45" name="inst_2036A01F" locked="0" code="" scaleX="4.57142877578735" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_exit_naar_beginscherm" x="64" y="64" name="inst_AED0D787" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_eindscore_toevoegen" x="96" y="224" name="inst_BDD70973" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_eindscore_toevoegen_trampoline" x="96" y="224" name="inst_BDD70973" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
