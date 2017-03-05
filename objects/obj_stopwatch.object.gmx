@@ -27,6 +27,9 @@
             <kind>1</kind>
             <string>global.secs = 0;
 global.mins = 0;
+
+
+
 </string>
           </argument>
         </arguments>
@@ -49,7 +52,8 @@ global.mins = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.gestart = true){
+            <string>
+if (global.gestart = true){
 global.secs += delta_time/1000000
 }
 

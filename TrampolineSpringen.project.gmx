@@ -132,6 +132,8 @@
       <object>objects\obj_finishline</object>
       <object>objects\obj_hordelopen_exitNaarBeginscherm</object>
       <object>objects\obj_eindscore_toevoegen_hordelopen</object>
+      <object>objects\obj_instr_horde1</object>
+      <object>objects\obj_instr_horde2</object>
       <object>objects\obj_stopwatch</object>
     </objects>
     <objects name="trampoline_game_objects">
@@ -162,8 +164,6 @@
       <object>objects\obj_score3</object>
       <object>objects\obj_score4</object>
     </objects>
-    <object>objects\obj_instr_horde1</object>
-    <object>objects\obj_instr_horde2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>
