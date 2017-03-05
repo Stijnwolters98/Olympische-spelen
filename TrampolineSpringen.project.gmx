@@ -107,6 +107,7 @@
     <font>fonts\fnt_highscore</font>
     <font>fonts\fnt_score1</font>
     <font>fonts\fnt_Timerstartschot</font>
+    <font>fonts\fnt_stopwatch</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_muur</object>
