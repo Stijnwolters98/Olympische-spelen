@@ -20,7 +20,6 @@
     <sprite>sprites\spr_exit_button</sprite>
     <sprite>sprites\spr_restart_button</sprite>
     <sprite>sprites\spr_credits_button</sprite>
-    <sprite>sprites\spr_player</sprite>
     <sprites name="horde_game_sprites">
       <sprite>sprites\spr_staanhorde</sprite>
       <sprite>sprites\spr_horde</sprite>
