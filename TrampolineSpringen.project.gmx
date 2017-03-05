@@ -96,6 +96,7 @@
     <background>background\bg_beginscherm</background>
     <background>background\bg_hordeloop_game</background>
     <background>background\bg_trampoline_score</background>
+    <background>background\bg_hordelopen_score</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
