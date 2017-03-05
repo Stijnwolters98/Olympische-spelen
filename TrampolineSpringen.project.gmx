@@ -134,6 +134,7 @@
       <object>objects\obj_instr_horde1</object>
       <object>objects\obj_instr_horde2</object>
       <object>objects\obj_stopwatch</object>
+      <object>objects\obj_stopwatcheind</object>
     </objects>
     <objects name="trampoline_game_objects">
       <object>objects\obj_stickman_springen</object>
