@@ -33,8 +33,12 @@ jumpspeed = 12;
 movespeed = 5;
 
 
-
-
+//if (rightKey == true) {
+//rechtgedrukt = true
+//}
+//if (leftKey == true) {
+//linksgedrukt = true
+//}
 </string>
           </argument>
         </arguments>
@@ -63,6 +67,7 @@ movespeed = 5;
 rightKey = keyboard_check(vk_right);
 jumpKey = keyboard_check_pressed(vk_space);
 
+
 //Horizontale beweging
 if (rightKey and global.gestart == true) {
     hsp = movespeed * rightKey;
@@ -72,12 +77,9 @@ if (rightKey and global.gestart == true) {
     sprite_index = spr_staanhorde;
 }
 // om de beurt links en rechts drukken
-//if (rightKey and global.gestart == true) {
-//rechtgedrukt = 5
-//}
-//if (leftKey and global.gestart == true) {
-//linksgedrukt = 6
-//}
+//if (rightKey == true and leftingedrukt == true){
+
+
 //Zwaartekracht
 if (vsp &lt;10)
 {

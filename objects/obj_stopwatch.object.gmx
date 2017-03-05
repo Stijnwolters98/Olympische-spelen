@@ -49,8 +49,9 @@ global.mins = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.secs += delta_time/1000000
-
+            <string>if (global.gestart = true){
+global.secs += delta_time/1000000
+}
 
 
 </string>
@@ -75,7 +76,8 @@ global.mins = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fnt_stopwatch)
+            <string>
+draw_set_font(fnt_stopwatch)
 draw_set_color(c_green)
 draw_text(x,y, string(global.mins) + ":" + string(global.secs) )
 
