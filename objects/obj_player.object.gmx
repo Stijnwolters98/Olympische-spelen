@@ -30,7 +30,10 @@ grav = 0.4;
 hsp = 0;
 vsp = 0;
 jumpspeed = 10;
-movespeed = 2.5;
+speedInAir = 2.5;
+speedOnGround = 5;
+grounded = false;
+grounded_trampoline = false;
 </string>
           </argument>
         </arguments>
@@ -80,43 +83,30 @@ truc_pirouette4 = keyboard_check(ord('V'));
 
 truc4Key = keyboard_check(ord('J'));
 
+//State checks -----------------------------------------------------
 
-//Horizontale beweging
-move = rightKey + leftKey
-hsp = move * movespeed;
-
-//Halveren hsp
-if (place_meeting(x, y+1, obj_muur) == true) {
- hsp = 2*move*movespeed;
-}
-
-//Zwaartekracht
-if (vsp &lt;10)
-{
-    vsp += grav;
-} 
-
-//Springen
-if (place_meeting(x, y+1, obj_muur)) 
-{
-    if (place_meeting(x, y+1, obj_trampoline))
-    {
-    vsp = jumpKey * -jumpspeed *1.5;   //Sprong op de trampoline
-
-    } else {
-    vsp = jumpKey * -jumpspeed; //reguliere sprong
-
+//naar rechts en links lopen logica
+if (rightKey == 1 and leftKey == 0) {
+    if (grounded or grounded_trampoline){
+    hsp = speedOnGround;
+    } else if (grounded == false or grounded_trampoline == false) { //Als in de lucht
+        hsp = speedInAir;
     }
-    
 }
 
-//spring geluid
-
-if (jumpKey == true and place_meeting(x, y+1, obj_muur) == true) {
- audio_play_sound(snd_jump_trampoline_game, 1, false);
-
+if (leftKey == -1 and rightKey == 0) {
+    if (grounded or grounded_trampoline){
+    hsp = -speedOnGround; //Vector naar links gericht, dus negatief.
+    } else if (grounded == false or grounded_trampoline == false) { //Als in de lucht
+        hsp = -speedInAir;
+    }
 }
 
+if (leftKey == 0 and rightKey == 0){
+    if (grounded or grounded_trampoline){
+        hsp = 0;
+    }
+}
 
 
 //Verticale collision
@@ -141,18 +131,42 @@ if (place_meeting(x+hsp, y, obj_muur))
 }
 x += hsp;
 
+//Veranderen van sprites.
+if (hsp&gt;0) {sprite_index = spr_stickman_lopenR};
+if (hsp&lt;0) {sprite_index = spr_stickman_lopenL};
+if (hsp=0) {sprite_index = spr_stickman_staan};
 
-//naar rechts en links lopen animatie
-if (place_meeting(x, y+1, obj_muur) and rightKey == 1 and leftKey == 0) {
-    sprite_index = spr_stickman_lopenR;
+//Als in de lucht:
+if (place_meeting(x, y+1, obj_muur) == false){
+    grounded = false;
+} else {
+    grounded = true;
 }
 
-if (place_meeting(x, y+1, obj_muur) and leftKey == -1 and rightKey == 0) {
-    sprite_index = spr_stickman_lopenL;
+//Als op de trampoline:
+if (place_meeting(x, y+1, obj_trampoline) == false){
+    grounded_trampoline = false;
+} else {
+    grounded_trampoline = true;
 }
-if (leftKey == 0 and rightKey == 0){
-    sprite_index = spr_stickman_staan;
+
+//Zwaartekracht
+if (vsp &lt;10)
+{
+    vsp += grav;
+} 
+
+if (jumpKey) {
+    if (grounded_trampoline) {
+        vsp = jumpKey * -jumpspeed *1.5;
+        audio_play_sound(snd_jump_trampoline_game, 1, false);
+    } else if (grounded) {
+        vsp = jumpKey * -jumpspeed;
+        audio_play_sound(snd_jump_trampoline_game, 1, false);
+    }
 }
+
+
 
 
 /*
