@@ -88,6 +88,9 @@
     <sprite>sprites\spr_instruction_button</sprite>
     <sprite>sprites\spr_instr_horde1</sprite>
     <sprite>sprites\spr_instr_horde2</sprite>
+    <sprite>sprites\spr_instr_tramp1</sprite>
+    <sprite>sprites\spr_instr_tramp2</sprite>
+    <sprite>sprites\spr_instr_tramp_3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_trampoline_game</background>
