@@ -173,9 +173,9 @@ global.gestart = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//instance_create(obj_hordelopen_player.x, obj_hordelopen_player.y, obj_hordelopen_player_vallen);
-//instance_destroy();
-//global.gestart = false
+            <string>instance_create(obj_hordelopen_player.x, obj_hordelopen_player.y, obj_hordelopen_player_vallen);
+instance_destroy();
+global.gestart = false
 </string>
           </argument>
         </arguments>
