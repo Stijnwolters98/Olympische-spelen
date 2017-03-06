@@ -39,7 +39,7 @@ grounded_trampoline = false;
         </arguments>
       </action>
     </event>
-    <event eventtype="2" enumb="5">
+    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
         <id>541</id>
@@ -162,9 +162,9 @@ if (place_meeting(x+hsp, y, obj_muur))
 x += hsp;
 
 //Veranderen van sprites.
-if (hsp&gt;0) {sprite_index = spr_stickman_lopenR};
-if (hsp&lt;0) {sprite_index = spr_stickman_lopenL};
-if (hsp=0) {sprite_index = spr_stickman_staan};
+if (hsp&gt;0 and grounded) {sprite_index = spr_stickman_lopenR};
+if (hsp&lt;0 and grounded) {sprite_index = spr_stickman_lopenL};
+if (hsp=0 and grounded) {sprite_index = spr_stickman_staan};
 
 //Als in de lucht:
 if (place_meeting(x, y+1, obj_muur) == false){
@@ -209,9 +209,8 @@ als obj_muur deelt.
 //Uitvoeren van truc1 (salto)
 
 if truc_salto1 {
-    sprite_index = spr_stickman_salto;
-    alarm[5] = 60;
-
+ sprite_index = spr_stickman_salto;
+ alarm[0] = 60;
 }
 
 //Uitvoeren van truc2 (backflip)
@@ -230,7 +229,35 @@ if truc_pirouette1
 }
 
 
+// objects weg..
+if (grounded) {
+hoi = 0;
+}
+else {
 
+truc_salto1 = keyboard_check(ord('Q'));
+truc_salto2 = keyboard_check(ord('W'));
+truc_salto3 = keyboard_check(ord('E'));
+truc_salto4 = keyboard_check(ord('R'));
+
+if truc_salto1 {
+alarm[0] = 12.5;
+}
+
+if truc_salto2 {
+alarm[0] = 25;
+}
+
+if truc_salto3 {
+alarm[0] = 37.5;
+}
+
+if truc_salto4 {
+alarm[0] = 50;
+audio_play_sound(snd_goed_gedaan_pling, 1, false);
+global.score +=10;
+}
+}
 </string>
           </argument>
         </arguments>
