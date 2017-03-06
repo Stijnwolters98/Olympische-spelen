@@ -51,11 +51,17 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_exit_naar_beginscherm" x="64" y="64" name="inst_D8A900F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_instr_horde1" x="128" y="0" name="inst_C523A9B7" locked="0" code="" scaleX="0.419825077056885" scaleY="0.582524299621582" colour="4294967295" rotation="0"/>
-    <instance objName="obj_instr_horde2" x="704" y="0" name="inst_3DDCA91B" locked="0" code="" scaleX="0.534883737564087" scaleY="0.581113815307617" colour="4294967295" rotation="0"/>
-    <instance objName="obj_muur" x="1504" y="384" name="inst_6E960B13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_muur" x="608" y="-416" name="inst_4D7115E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit_naar_beginscherm" x="128" y="32" name="inst_D8A900F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_instr_horde1" x="0" y="0" name="inst_C523A9B7" locked="0" code="" scaleX="0.513119518756866" scaleY="0.427184462547302" colour="4294967295" rotation="0"/>
+    <instance objName="obj_instr_horde2" x="704" y="0" name="inst_3DDCA91B" locked="0" code="" scaleX="0.534883737564087" scaleY="0.426150113344193" colour="4294967295" rotation="0"/>
+    <instance objName="obj_instr_tramp1" x="0" y="352" name="inst_F760CC3F" locked="0" code="" scaleX="0.349599421024323" scaleY="0.660194158554077" colour="4294967295" rotation="0"/>
+    <instance objName="obj_instr_tramp2" x="480" y="352" name="inst_0FBC7668" locked="0" code="" scaleX="0.373722612857819" scaleY="0.655421674251556" colour="4294967295" rotation="0"/>
+    <instance objName="obj_instr_tramp3" x="992" y="352" name="inst_66667753" locked="0" code="" scaleX="0.328445762395859" scaleY="0.661800503730774" colour="4294967295" rotation="0"/>
+    <instance objName="obj_muur" x="1412" y="448" name="inst_74858969" locked="0" code="" scaleX="0.75" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_muur" x="1472" y="224" name="inst_2F9142A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_muur" x="1440" y="352" name="inst_5405E7CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_muur" x="288" y="-160" name="inst_2514B393" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_muur" x="1440" y="672" name="inst_4009A548" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

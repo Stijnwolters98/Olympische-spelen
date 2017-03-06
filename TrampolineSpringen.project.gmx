@@ -167,6 +167,9 @@
       <object>objects\obj_score3</object>
       <object>objects\obj_score4</object>
     </objects>
+    <object>objects\obj_instr_tramp1</object>
+    <object>objects\obj_instr_tramp2</object>
+    <object>objects\obj_instr_tramp3</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin_scherm</room>
