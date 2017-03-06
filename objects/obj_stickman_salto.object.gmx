@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_meeting(x, y+1, obj_muur) == true) {
+            <string>/*if (place_meeting(x, y+1, obj_muur) == true) {
  instance_change(obj_player, true)
 
 }
@@ -54,7 +54,7 @@ alarm[0] = 50;
 audio_play_sound(snd_goed_gedaan_pling, 1, false);
 global.score +=10;
 }
-}
+}*/
 </string>
           </argument>
         </arguments>
@@ -77,7 +77,7 @@ global.score +=10;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_change(obj_player, true)
+            <string>//instance_change(obj_player, true)
 
 </string>
           </argument>

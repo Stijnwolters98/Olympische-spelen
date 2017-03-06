@@ -3,14 +3,14 @@
   <type>0</type>
   <xorig>75</xorig>
   <yorigin>75</yorigin>
-  <colkind>0</colkind>
+  <colkind>1</colkind>
   <coltolerance>0</coltolerance>
-  <sepmasks>-1</sepmasks>
-  <bboxmode>0</bboxmode>
-  <bbox_left>20</bbox_left>
-  <bbox_right>137</bbox_right>
-  <bbox_top>20</bbox_top>
-  <bbox_bottom>134</bbox_bottom>
+  <sepmasks>0</sepmasks>
+  <bboxmode>2</bboxmode>
+  <bbox_left>70</bbox_left>
+  <bbox_right>100</bbox_right>
+  <bbox_top>55</bbox_top>
+  <bbox_bottom>131</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -68,5 +68,17 @@
     <frame index="45">images\spr_stickman_salto_45.png</frame>
     <frame index="46">images\spr_stickman_salto_46.png</frame>
     <frame index="47">images\spr_stickman_salto_47.png</frame>
+    <frame index="48">images\spr_stickman_salto_48.png</frame>
+    <frame index="49">images\spr_stickman_salto_49.png</frame>
+    <frame index="50">images\spr_stickman_salto_50.png</frame>
+    <frame index="51">images\spr_stickman_salto_51.png</frame>
+    <frame index="52">images\spr_stickman_salto_52.png</frame>
+    <frame index="53">images\spr_stickman_salto_53.png</frame>
+    <frame index="54">images\spr_stickman_salto_54.png</frame>
+    <frame index="55">images\spr_stickman_salto_55.png</frame>
+    <frame index="56">images\spr_stickman_salto_56.png</frame>
+    <frame index="57">images\spr_stickman_salto_57.png</frame>
+    <frame index="58">images\spr_stickman_salto_58.png</frame>
+    <frame index="59">images\spr_stickman_salto_59.png</frame>
   </frames>
 </sprite>
