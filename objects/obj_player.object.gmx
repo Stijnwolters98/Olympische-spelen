@@ -178,14 +178,14 @@ als obj_muur deelt.
 //Uitvoeren van de verschillende trucs
 //Uitvoeren van truc1 (salto)
 
-if truc_salto1 {
+if (truc_salto1 and !grounded) {
     instance_destroy();
     instance_create(x,y, obj_stickman_salto);
 
 }
 
 //Uitvoeren van truc2 (backflip)
-if truc_backflip1
+if (truc_backflip1 and !grounded)
 {
     instance_destroy();
     instance_create(x,y, obj_stickman_backflip);
@@ -193,7 +193,7 @@ if truc_backflip1
 }
 
 //Uitvoeren van truc3 (pirouette)
-if truc_pirouette1
+if (truc_pirouette1 and !grounded)
 {
     instance_destroy();
     instance_create(x,y, obj_stickman_pirouette);
